@@ -8,3 +8,17 @@
 [04-Jan-2023 17:17:40 Asia/Calcutta] PHP Warning:  Undefined variable $sql in /var/www/html/pim/main_project/vendor/vrana/adminer/adminer/script.inc.php on line 15
 [04-Jan-2023 17:17:40 Asia/Calcutta] PHP Warning:  Undefined variable $sql in /var/www/html/pim/main_project/vendor/vrana/adminer/adminer/script.inc.php on line 15
 [04-Jan-2023 17:17:40 Asia/Calcutta] PHP Warning:  Undefined variable $sql in /var/www/html/pim/main_project/vendor/vrana/adminer/adminer/script.inc.php on line 15
+[06-Jan-2023 15:23:05 Asia/Calcutta] 2023-01-06T15:23:05+05:30 [critical] Uncaught Exception: The autoloader expected class "App\Command\Footwearinsert" to be defined in file "/var/www/html/pim/main_project/vendor/composer/../../src/Command/Footwearinsert.php". The file was found but the class was not in it, the class name or namespace probably has a typo.
+[06-Jan-2023 15:23:35 Asia/Calcutta] 2023-01-06T15:23:35+05:30 [critical] Uncaught Exception: Expected to find class "App\Command\Footwearinsert" in file "/var/www/html/pim/main_project/src/Command/Footwearinsert.php" while importing services from resource "../src/Command/*", but it was not found! Check the namespace prefix used with the resource in /var/www/html/pim/main_project/config/services.yaml (which is being imported from "/var/www/html/pim/main_project/src/Kernel.php").
+[06-Jan-2023 15:33:05 Asia/Calcutta] 2023-01-06T15:33:05+05:30 [critical] Uncaught Error: syntax error, unexpected token "}"
+[06-Jan-2023 15:33:15 Asia/Calcutta] 2023-01-06T15:33:15+05:30 [critical] Uncaught Error: syntax error, unexpected token "}"
+[06-Jan-2023 15:33:35 Asia/Calcutta] 2023-01-06T15:33:35+05:30 [critical] Uncaught Error: syntax error, unexpected token "}"
+[06-Jan-2023 15:34:05 Asia/Calcutta] 2023-01-06T15:34:05+05:30 [critical] Uncaught Error: syntax error, unexpected token "}"
+[06-Jan-2023 15:34:35 Asia/Calcutta] 2023-01-06T15:34:35+05:30 [critical] Uncaught Error: syntax error, unexpected token "}"
+[06-Jan-2023 15:35:05 Asia/Calcutta] 2023-01-06T15:35:05+05:30 [critical] Uncaught Error: syntax error, unexpected token "}"
+[06-Jan-2023 15:35:08 Asia/Calcutta] 2023-01-06T15:35:08+05:30 [info] User Deprecated: Method "Symfony\Component\HttpKernel\KernelInterface::locateResource()" might add "string" as a native return type declaration in the future. Do the same in implementation "Pimcore\Kernel" now to avoid errors or add an explicit @return annotation to suppress this message.
+[06-Jan-2023 15:35:08 Asia/Calcutta] 2023-01-06T15:35:08+05:30 [critical] Uncaught Error: syntax error, unexpected token "}"
+[09-Jan-2023 12:00:14 Asia/Calcutta] 2023-01-09T12:00:14+05:30 [critical] Uncaught Error: syntax error, unexpected token "}", expecting ";"
+[09-Jan-2023 12:00:14 Asia/Calcutta] 2023-01-09T12:00:14+05:30 [critical] Uncaught Error: syntax error, unexpected token "}", expecting ";"
+[09-Jan-2023 12:00:14 Asia/Calcutta] 2023-01-09T12:00:14+05:30 [critical] Uncaught Error: syntax error, unexpected token "}", expecting ";"
+[09-Jan-2023 12:01:32 Asia/Calcutta] 2023-01-09T12:01:32+05:30 [critical] Uncaught Error: syntax error, unexpected token "}", expecting ";"
