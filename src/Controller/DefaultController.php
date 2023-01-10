@@ -19,6 +19,7 @@ class DefaultController extends FrontendController
     {
         return $this->render('default/default.html.twig');
     }
+<<<<<<< HEAD
     public function footwearAction(Request $request): Response
     {
         return $this->render('default/footwear.html.twig');
@@ -30,4 +31,18 @@ class DefaultController extends FrontendController
 
 
 
+=======
+    public function homeAction(Request $request): Response
+    {
+        return $this->render('default/home.html.twig');
+    }
+    public function HeaderAction(Request $request): Response
+    {
+        return $this->render('default/Header.html.twig');
+    }
+    public function footerAction(Request $request): Response
+    {
+        return $this->render('default/footer.html.twig');
+    }
+>>>>>>> f0beae0317f21adfda97912d29dff73daa4f153f
 }
