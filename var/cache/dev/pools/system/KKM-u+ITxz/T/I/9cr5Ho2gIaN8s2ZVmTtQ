@@ -1,0 +1,3 @@
+<?php //Pimcore%255CBundle%255CCoreBundle%255CController%255CPublicServicesController
+
+return [PHP_INT_MAX, []];
