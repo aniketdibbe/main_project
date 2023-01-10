@@ -94,68 +94,80 @@ class __TwigTemplate_ae1c637815d2a99576a0b1242fb19c68 extends Template
    <div class=\"row\" style=\"margin-top:20px;\">
       <div class=\"col-md-4\" >
          <div style=\"border:solid Gray;\">
+            <h3 align=\"center\">Sports Shoes</h3>
             
-            <img src=\"images/adidas.jpeg\"/> 
-           
+            <img  class=\"rounded mx-auto d-block\" src=\"images/adidas.jpeg\" style=\"height:200px; widht:100px;\"/> 
+            <h3 align=\"center\">Price : 2999 <del style=\"color:red;\"> 5900</del><span style=\"color:green\">&nbsp;&nbsp;50 % off</span></h3>
             <h4 align=\"center\">Firefly-04  </h4>
             <p align=\"center\">sports Shoes (White, Pink)</p>
-             <h3 align=\"center\">Price : 2999 <del style=\"color:red;\"> 5900</del></h3>
+             
          </div>
       </div>
 
       <div class=\"col-md-4\" \"img\":\"height:200px\">
          <div style=\"border:solid Gray;\">
+            <h3 align=\"center\">Sneakers</h3>
            
-            <img src=\"images/sneker.jpg\" height=\"100px\"/> 
+            <img class=\"rounded mx-auto d-block\"  src=\"images/sneker.jpg\" style=\"height:200px; widht:100px;\"/> 
+             <h3 align=\"center\">Price : 799 <del style=\"color:red;\"> 900</del><span style=\"color:green\">&nbsp;&nbsp;8 % off</span></h3>
              <h4 align=\"center\">Synthetic Leather</h4>
              <p align=\"center\">Daily Use Sneakers For Men  (White, Black, Red)</p>
-              <h3 align=\"center\">Price : 799 <del style=\"color:red;\"> 900</del></h3>
+              
          </div>
       </div>
    
       <div class=\"col-md-4\" >
          <div style=\"border:solid Gray;\">
+            <h3 align=\"center\">Sandal's</h3>
             
-            <img src=\"images/sandals.jpg\"/> 
+            <img class=\"rounded mx-auto d-block\" src=\"images/sandals.jpg\"style=\"height:200px; widht:100px;\"/> 
+            <h3 align=\"center\">Price : 999 <del style=\"color:red;\"> 1900</del><span style=\"color:green\">&nbsp;&nbsp;49% off</span></h3>
+
             <h4 align=\"center\">Bata</h4>
             <p align=\"center\">Women synthentic sandals</p>
-             <h3 align=\"center\">Price : 999 <del style=\"color:red;\"> 1900</del></h3>
-
+             
          </div>
       </div>
+      </div>
+      <div class=\"row\" style=\"margin-top:20px; margin-bottom:20px\">
       <div class=\"col-md-4\" >
          <div style=\"border:solid Gray;\">
-            
-            <img src=\"images/formalshoes.jpg\"/> 
+            <h3 align=\"center\">Formal Shoes</h3>
+            <img  class=\"rounded mx-auto d-block\" src=\"images/formalshoes.jpg\"style=\"height:200px; widht:100px;\"/> 
+            <h3 align=\"center\">Price : 999 <del style=\"color:red;\"> 3900</del><span style=\"color:green\">&nbsp;&nbsp;25 % off</span></h3>
             <h4 align=\"center\">Fantacia</h4>
             <p align=\"center\">Men Genuine Leather Formal shoes</p>
-             <h3 align=\"center\">Price : 999 <del style=\"color:red;\"> 3900</del></h3>
+             
 
          </div>
       </div>
 
       <div class=\"col-md-4\" >
          <div style=\"border:solid Gray;\">
-            
-            <img src=\"images/flip.jpg\"/> 
+            <h3 align=\"center\">Flip-Flop </h3>
+            <img class=\"rounded mx-auto d-block\"  src=\"images/flip.jpg\"style=\"height:200px; widht:100px;\"/> 
+            <h3 align=\"center\">Price : 399 <del style=\"color:red;\"> 899</del><span style=\"color:green\">&nbsp;&nbsp;44 % off</span></h3>
+
             <h4 align=\"center\">Drunken</h4>
             <p align=\"center\">Flip-Flop slipers </p>
-             <h3 align=\"center\">Price : 399 <del style=\"color:red;\"> 899</del></h3>
-
+             
          </div>
       </div>
    
      <div class=\"col-md-4\" >
          <div style=\"border:solid Gray;\">
+            <h3 align=\"center\">School Shoes</h3>
             
-            <img src=\"images/school.jpg\"/> 
+            <img class=\"rounded mx-auto d-block\" src=\"images/school.jpg\"style=\"height:200px; widht:100px;\"/> 
+            <h3 align=\"center\">Price : 399 <del style=\"color:red;\"> 799</del><span style=\"color:green\">&nbsp;&nbsp;49 % off</span></h3>
+            
             <h4 align=\"center\">Fantacia</h4>
             <p align=\"center\">Men Genuine Leather Formal shoes</p>
-             <h3 align=\"center\">Price : 999 <del style=\"color:red;\"> 3900</del></h3>
-
+            
          </div>
       </div>
-   </div>
+      </div>
+   
    <!-- footer section start -->
       <div class=\"footer_section layout_padding\">
          <div class=\"container\">
@@ -272,68 +284,80 @@ class __TwigTemplate_ae1c637815d2a99576a0b1242fb19c68 extends Template
    <div class=\"row\" style=\"margin-top:20px;\">
       <div class=\"col-md-4\" >
          <div style=\"border:solid Gray;\">
+            <h3 align=\"center\">Sports Shoes</h3>
             
-            <img src=\"images/adidas.jpeg\"/> 
-           
+            <img  class=\"rounded mx-auto d-block\" src=\"images/adidas.jpeg\" style=\"height:200px; widht:100px;\"/> 
+            <h3 align=\"center\">Price : 2999 <del style=\"color:red;\"> 5900</del><span style=\"color:green\">&nbsp;&nbsp;50 % off</span></h3>
             <h4 align=\"center\">Firefly-04  </h4>
             <p align=\"center\">sports Shoes (White, Pink)</p>
-             <h3 align=\"center\">Price : 2999 <del style=\"color:red;\"> 5900</del></h3>
+             
          </div>
       </div>
 
       <div class=\"col-md-4\" \"img\":\"height:200px\">
          <div style=\"border:solid Gray;\">
+            <h3 align=\"center\">Sneakers</h3>
            
-            <img src=\"images/sneker.jpg\" height=\"100px\"/> 
+            <img class=\"rounded mx-auto d-block\"  src=\"images/sneker.jpg\" style=\"height:200px; widht:100px;\"/> 
+             <h3 align=\"center\">Price : 799 <del style=\"color:red;\"> 900</del><span style=\"color:green\">&nbsp;&nbsp;8 % off</span></h3>
              <h4 align=\"center\">Synthetic Leather</h4>
              <p align=\"center\">Daily Use Sneakers For Men  (White, Black, Red)</p>
-              <h3 align=\"center\">Price : 799 <del style=\"color:red;\"> 900</del></h3>
+              
          </div>
       </div>
    
       <div class=\"col-md-4\" >
          <div style=\"border:solid Gray;\">
+            <h3 align=\"center\">Sandal's</h3>
             
-            <img src=\"images/sandals.jpg\"/> 
+            <img class=\"rounded mx-auto d-block\" src=\"images/sandals.jpg\"style=\"height:200px; widht:100px;\"/> 
+            <h3 align=\"center\">Price : 999 <del style=\"color:red;\"> 1900</del><span style=\"color:green\">&nbsp;&nbsp;49% off</span></h3>
+
             <h4 align=\"center\">Bata</h4>
             <p align=\"center\">Women synthentic sandals</p>
-             <h3 align=\"center\">Price : 999 <del style=\"color:red;\"> 1900</del></h3>
-
+             
          </div>
       </div>
+      </div>
+      <div class=\"row\" style=\"margin-top:20px; margin-bottom:20px\">
       <div class=\"col-md-4\" >
          <div style=\"border:solid Gray;\">
-            
-            <img src=\"images/formalshoes.jpg\"/> 
+            <h3 align=\"center\">Formal Shoes</h3>
+            <img  class=\"rounded mx-auto d-block\" src=\"images/formalshoes.jpg\"style=\"height:200px; widht:100px;\"/> 
+            <h3 align=\"center\">Price : 999 <del style=\"color:red;\"> 3900</del><span style=\"color:green\">&nbsp;&nbsp;25 % off</span></h3>
             <h4 align=\"center\">Fantacia</h4>
             <p align=\"center\">Men Genuine Leather Formal shoes</p>
-             <h3 align=\"center\">Price : 999 <del style=\"color:red;\"> 3900</del></h3>
+             
 
          </div>
       </div>
 
       <div class=\"col-md-4\" >
          <div style=\"border:solid Gray;\">
-            
-            <img src=\"images/flip.jpg\"/> 
+            <h3 align=\"center\">Flip-Flop </h3>
+            <img class=\"rounded mx-auto d-block\"  src=\"images/flip.jpg\"style=\"height:200px; widht:100px;\"/> 
+            <h3 align=\"center\">Price : 399 <del style=\"color:red;\"> 899</del><span style=\"color:green\">&nbsp;&nbsp;44 % off</span></h3>
+
             <h4 align=\"center\">Drunken</h4>
             <p align=\"center\">Flip-Flop slipers </p>
-             <h3 align=\"center\">Price : 399 <del style=\"color:red;\"> 899</del></h3>
-
+             
          </div>
       </div>
    
      <div class=\"col-md-4\" >
          <div style=\"border:solid Gray;\">
+            <h3 align=\"center\">School Shoes</h3>
             
-            <img src=\"images/school.jpg\"/> 
+            <img class=\"rounded mx-auto d-block\" src=\"images/school.jpg\"style=\"height:200px; widht:100px;\"/> 
+            <h3 align=\"center\">Price : 399 <del style=\"color:red;\"> 799</del><span style=\"color:green\">&nbsp;&nbsp;49 % off</span></h3>
+            
             <h4 align=\"center\">Fantacia</h4>
             <p align=\"center\">Men Genuine Leather Formal shoes</p>
-             <h3 align=\"center\">Price : 999 <del style=\"color:red;\"> 3900</del></h3>
-
+            
          </div>
       </div>
-   </div>
+      </div>
+   
    <!-- footer section start -->
       <div class=\"footer_section layout_padding\">
          <div class=\"container\">
