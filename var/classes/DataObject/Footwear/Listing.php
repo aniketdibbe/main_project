@@ -14,7 +14,11 @@ use Pimcore\Model\DataObject;
 
 class Listing extends DataObject\Listing\Concrete
 {
+<<<<<<< HEAD
 protected $classId = "1";
+=======
+protected $classId = "5";
+>>>>>>> d70caed15eef289352ecaff2364ea7109a18d45d
 protected $className = "Footwear";
 
 

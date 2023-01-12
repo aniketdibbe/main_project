@@ -58,7 +58,7 @@ class __TwigTemplate_2327490eccf60d8134f38c0c4d9fbe6f extends Template
 </head>
 <body>
 <!-- footer section start -->
-      <div class=\"footer_section layout_padding\">
+      <div class=\"footer_section layout_padding\" style=\"margin-top:20px;background-color:gray;\">
          <div class=\"container\">
             <div class=\"subscribe_bt\"><a href=\"#\">Subscribe</a></div>
             <input type=\"text\" class=\"email_text\" placeholder=\"Enter Your Email\" name=\"Enter Your Email\">
@@ -79,25 +79,25 @@ class __TwigTemplate_2327490eccf60d8134f38c0c4d9fbe6f extends Template
                         <h4 class=\"information_text\">Helpful Links</h4>
                         <div class=\"footer_menu\">
                            <ul>
-                              <li><a href=\"index.html\">Home</a></li>
-                              <li><a href=\"about.html\">About</a></li>
-                              <li><a href=\"services.html\">Services</a></li>
-                              <li><a href=\"blog.html\">Blog</a></li>
-                              <li><a href=\"news.html\">News</a></li>
+                              <li><a href=\"home\">Home</a></li>
+                              <li><a href=\"Electronics\">Electronics</a></li>
+                              <li><a href=\"Clothing\">Clothing</a></li>
+                              <li><a href=\"Beauty\">Beauty</a></li>
+                              <li><a href=\"Footwear\">Footwear</a></li>
                            </ul>
                         </div>
                      </div>
                   </div>
                   <div class=\"col-lg-3\">
                      <div class=\"information_main\">
-                        <div class=\"footer_logo\"><a href=\"index.html\"><img src=\"images/ecommerce.png\"></a></div>
+                        <div class=\"footer_logo\"><a href=\"index.html\"><img src=\"images/Elogo.jpg\"></a></div>
                      </div>
                   </div>
                </div>
             </div>
          </div>
       </div>
-      <!-- footer section end -->
+   <!-- footer section end -->
     </body>
 </html>";
         
@@ -136,7 +136,7 @@ class __TwigTemplate_2327490eccf60d8134f38c0c4d9fbe6f extends Template
 </head>
 <body>
 <!-- footer section start -->
-      <div class=\"footer_section layout_padding\">
+      <div class=\"footer_section layout_padding\" style=\"margin-top:20px;background-color:gray;\">
          <div class=\"container\">
             <div class=\"subscribe_bt\"><a href=\"#\">Subscribe</a></div>
             <input type=\"text\" class=\"email_text\" placeholder=\"Enter Your Email\" name=\"Enter Your Email\">
@@ -157,25 +157,25 @@ class __TwigTemplate_2327490eccf60d8134f38c0c4d9fbe6f extends Template
                         <h4 class=\"information_text\">Helpful Links</h4>
                         <div class=\"footer_menu\">
                            <ul>
-                              <li><a href=\"index.html\">Home</a></li>
-                              <li><a href=\"about.html\">About</a></li>
-                              <li><a href=\"services.html\">Services</a></li>
-                              <li><a href=\"blog.html\">Blog</a></li>
-                              <li><a href=\"news.html\">News</a></li>
+                              <li><a href=\"home\">Home</a></li>
+                              <li><a href=\"Electronics\">Electronics</a></li>
+                              <li><a href=\"Clothing\">Clothing</a></li>
+                              <li><a href=\"Beauty\">Beauty</a></li>
+                              <li><a href=\"Footwear\">Footwear</a></li>
                            </ul>
                         </div>
                      </div>
                   </div>
                   <div class=\"col-lg-3\">
                      <div class=\"information_main\">
-                        <div class=\"footer_logo\"><a href=\"index.html\"><img src=\"images/ecommerce.png\"></a></div>
+                        <div class=\"footer_logo\"><a href=\"index.html\"><img src=\"images/Elogo.jpg\"></a></div>
                      </div>
                   </div>
                </div>
             </div>
          </div>
       </div>
-      <!-- footer section end -->
+   <!-- footer section end -->
     </body>
 </html>", "default/footer.html.twig", "/var/www/html/new/main_project/templates/default/footer.html.twig");
     }

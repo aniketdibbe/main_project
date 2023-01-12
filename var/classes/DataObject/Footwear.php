@@ -11,7 +11,11 @@
  * - offer [numeric]
  * - off [input]
  * - description [textarea]
+<<<<<<< HEAD
  * - footwear_shop [classificationstore]
+=======
+ * - Foot [classificationstore]
+>>>>>>> d70caed15eef289352ecaff2364ea7109a18d45d
  * - manufacture [date]
  * - expiry [date]
  */
@@ -35,7 +39,11 @@ use Pimcore\Model\DataObject\PreGetValueHookInterface;
 
 class Footwear extends Concrete
 {
+<<<<<<< HEAD
 protected $o_classId = "1";
+=======
+protected $o_classId = "5";
+>>>>>>> d70caed15eef289352ecaff2364ea7109a18d45d
 protected $o_className = "Footwear";
 protected $Gender;
 protected $image;
@@ -43,7 +51,11 @@ protected $price;
 protected $offer;
 protected $off;
 protected $description;
+<<<<<<< HEAD
 protected $footwear_shop;
+=======
+protected $Foot;
+>>>>>>> d70caed15eef289352ecaff2364ea7109a18d45d
 protected $manufacture;
 protected $expiry;
 
@@ -265,6 +277,7 @@ public function setDescription(?string $description)
 }
 
 /**
+<<<<<<< HEAD
 * Get footwear_shop - Footwear _shop
 * @return \Pimcore\Model\DataObject\Classificationstore|null
 */
@@ -272,17 +285,31 @@ public function getFootwear_shop(): ?\Pimcore\Model\DataObject\Classificationsto
 {
 	if ($this instanceof PreGetValueHookInterface && !\Pimcore::inAdmin()) {
 		$preValue = $this->preGetValue("footwear_shop");
+=======
+* Get Foot - Foot
+* @return \Pimcore\Model\DataObject\Classificationstore|null
+*/
+public function getFoot(): ?\Pimcore\Model\DataObject\Classificationstore
+{
+	if ($this instanceof PreGetValueHookInterface && !\Pimcore::inAdmin()) {
+		$preValue = $this->preGetValue("Foot");
+>>>>>>> d70caed15eef289352ecaff2364ea7109a18d45d
 		if ($preValue !== null) {
 			return $preValue;
 		}
 	}
 
+<<<<<<< HEAD
 	$data = $this->getClass()->getFieldDefinition("footwear_shop")->preGetData($this);
+=======
+	$data = $this->getClass()->getFieldDefinition("Foot")->preGetData($this);
+>>>>>>> d70caed15eef289352ecaff2364ea7109a18d45d
 
 	return $data;
 }
 
 /**
+<<<<<<< HEAD
 * Set footwear_shop - Footwear _shop
 * @param \Pimcore\Model\DataObject\Classificationstore|null $footwear_shop
 * @return \Pimcore\Model\DataObject\Footwear
@@ -290,6 +317,15 @@ public function getFootwear_shop(): ?\Pimcore\Model\DataObject\Classificationsto
 public function setFootwear_shop(?\Pimcore\Model\DataObject\Classificationstore $footwear_shop)
 {
 	$this->footwear_shop = $footwear_shop;
+=======
+* Set Foot - Foot
+* @param \Pimcore\Model\DataObject\Classificationstore|null $Foot
+* @return \Pimcore\Model\DataObject\Footwear
+*/
+public function setFoot(?\Pimcore\Model\DataObject\Classificationstore $Foot)
+{
+	$this->Foot = $Foot;
+>>>>>>> d70caed15eef289352ecaff2364ea7109a18d45d
 
 	return $this;
 }

@@ -549,8 +549,26 @@ return [
         '/admin/gdpr/pimcore-users/search-users' => [[['_route' => 'pimcore_admin_gdpr_pimcoreusers_searchusers', '_controller' => 'Pimcore\\Bundle\\AdminBundle\\Controller\\GDPR\\PimcoreUsersController::searchUsersAction'], null, ['GET' => 0], null, false, false, null]],
         '/admin/gdpr/pimcore-users/export-user-data' => [[['_route' => 'pimcore_admin_gdpr_pimcoreusers_exportuserdata', '_controller' => 'Pimcore\\Bundle\\AdminBundle\\Controller\\GDPR\\PimcoreUsersController::exportUserDataAction'], null, ['GET' => 0], null, false, false, null]],
         '/admin/gdpr/sent-mail/export' => [[['_route' => 'pimcore_admin_gdpr_sentmail_exportdataobject', '_controller' => 'Pimcore\\Bundle\\AdminBundle\\Controller\\GDPR\\SentMailController::exportDataObjectAction'], null, ['GET' => 0], null, false, false, null]],
+<<<<<<< HEAD
         '/footwear' => [[['_route' => 'footwear', '_controller' => 'App\\Controller\\DefaultController::dynamicFootwearAction'], null, ['GET' => 0], null, false, false, null]],
         '/email' => [[['_route' => 'login', '_controller' => 'App\\Controller\\MyController::Emailtrigger'], null, ['GET' => 0], null, false, false, null]],
+=======
+        '/elctronics' => [[['_route' => 'clothing-added', '_controller' => 'App\\Controller\\DefaultController::DeviceAction'], null, ['GET' => 0], null, false, false, null]],
+        '/footwear' => [[['_route' => 'footwear', '_controller' => 'App\\Controller\\DefaultController::dynamicFootwearAction'], null, ['GET' => 0], null, false, false, null]],
+        '/laptop' => [[['_route' => 'laptop', '_controller' => 'App\\Controller\\DefaultController::laptopAction'], null, ['GET' => 0], null, false, false, null]],
+        '/camera' => [[['_route' => 'camera', '_controller' => 'App\\Controller\\DefaultController::CameraAction'], null, ['GET' => 0], null, false, false, null]],
+        '/mobile' => [[['_route' => 'mobile', '_controller' => 'App\\Controller\\DefaultController::mobileAction'], null, ['GET' => 0], null, false, false, null]],
+        '/ethnicWearProduct' => [[['_route' => 'ethnicWear', '_controller' => 'App\\Controller\\DefaultController::ethnicWearAction'], null, ['GET' => 0], null, false, false, null]],
+        '/WinterWear' => [[['_route' => 'WinterWear', '_controller' => 'App\\Controller\\DefaultController::WinterWearAction'], null, ['GET' => 0], null, false, false, null]],
+        '/WesternWear' => [[['_route' => 'WesternWear', '_controller' => 'App\\Controller\\DefaultController::WesternWearAction'], null, ['GET' => 0], null, false, false, null]],
+        '/SportsWear' => [[['_route' => 'SportsWear', '_controller' => 'App\\Controller\\DefaultController::SportsWearAction'], null, ['GET' => 0], null, false, false, null]],
+        '/Face' => [[['_route' => 'Face', '_controller' => 'App\\Controller\\DefaultController::FaceAction'], null, ['GET' => 0], null, false, false, null]],
+        '/HairCare' => [[['_route' => 'HairCare', '_controller' => 'App\\Controller\\DefaultController::HairCareAction'], null, ['GET' => 0], null, false, false, null]],
+        '/BodyCare' => [[['_route' => 'BodyCare', '_controller' => 'App\\Controller\\DefaultController::BodyCareAction'], null, ['GET' => 0], null, false, false, null]],
+        '/Makeup' => [[['_route' => 'Makeup', '_controller' => 'App\\Controller\\DefaultController::MakeupAction'], null, ['GET' => 0], null, false, false, null]],
+        '/MensWear' => [[['_route' => 'MensWear', '_controller' => 'App\\Controller\\DefaultController::MensWearAction'], null, ['GET' => 0], null, false, false, null]],
+        '/WomensWear' => [[['_route' => 'WomensWear', '_controller' => 'App\\Controller\\DefaultController::WomensWearAction'], null, ['GET' => 0], null, false, false, null]],
+>>>>>>> d70caed15eef289352ecaff2364ea7109a18d45d
     ],
     [ // $regexpList
         0 => '{^(?'
