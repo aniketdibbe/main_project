@@ -549,6 +549,8 @@ return [
         '/admin/gdpr/pimcore-users/search-users' => [[['_route' => 'pimcore_admin_gdpr_pimcoreusers_searchusers', '_controller' => 'Pimcore\\Bundle\\AdminBundle\\Controller\\GDPR\\PimcoreUsersController::searchUsersAction'], null, ['GET' => 0], null, false, false, null]],
         '/admin/gdpr/pimcore-users/export-user-data' => [[['_route' => 'pimcore_admin_gdpr_pimcoreusers_exportuserdata', '_controller' => 'Pimcore\\Bundle\\AdminBundle\\Controller\\GDPR\\PimcoreUsersController::exportUserDataAction'], null, ['GET' => 0], null, false, false, null]],
         '/admin/gdpr/sent-mail/export' => [[['_route' => 'pimcore_admin_gdpr_sentmail_exportdataobject', '_controller' => 'Pimcore\\Bundle\\AdminBundle\\Controller\\GDPR\\SentMailController::exportDataObjectAction'], null, ['GET' => 0], null, false, false, null]],
+        '/footwear' => [[['_route' => 'footwear', '_controller' => 'App\\Controller\\DefaultController::dynamicFootwearAction'], null, ['GET' => 0], null, false, false, null]],
+        '/email' => [[['_route' => 'login', '_controller' => 'App\\Controller\\MyController::Emailtrigger'], null, ['GET' => 0], null, false, false, null]],
     ],
     [ // $regexpList
         0 => '{^(?'

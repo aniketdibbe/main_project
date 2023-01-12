@@ -1,0 +1,33 @@
+
+{% block %}
+
+<div class="container">
+{{form_start(form,{'attr':{'class':'row g-3 mt-5','novalidate':true}})}}
+	<form class="row g-3 mt-5">
+        <div class="offset-3 col-6">
+            {{form_label(form.email)}}
+            {{form_widget(form.email)}}
+            <b>{{form_errors(form.email)}}</b>
+            {# <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" placeholder="example@example.com"> #}
+        
+         </div>
+          <div class="offset-3 col-6">
+           {{form_label(form.name)}}
+            {{form_widget(form.name)}}
+            <b>{{form_errors(form.name)}}</b>
+            {# <label for="name" class="form-label">Name</label>
+            <input type="text" class="form-control" id="name" placeholder="john-doe"> #}
+        
+         </div>
+         <div class="col-12 text-center">
+            <button type="submit" class="btn btn-primary px-5"><b>Submit</b></button>
+         </div>
+    
+    
+    </form>
+    {{form_end(form)}}
+</div>
+{% {% endblock %} %}
+</body>
+</html>

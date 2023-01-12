@@ -39,6 +39,11 @@ services:
         # this means you cannot fetch services directly from the container via $container->get()
         # if you need to do this, you can override this setting on individual services
         public: false
+
+    App\Eventlisteners\Orderdate:
+            tags:
+                - { name: kernel.event_listener, event: pimcore.dataobject.preUpdate, method: validate}
+
     #
     # CONTROLLERS
     #
@@ -73,3 +78,4 @@ services:
     # App\EventListener\TestListener:
     #     tags:
     #         - { name: kernel.event_listener, event: pimcore.dataobject.preUpdate, method: onObjectPreUpdate }
+        
