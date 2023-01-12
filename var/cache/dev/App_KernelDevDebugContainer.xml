@@ -1175,6 +1175,9 @@
       <parameter key="kernel">App\Kernel</parameter>
     </parameter>
     <parameter key="console.command.ids" type="collection">
+      <parameter>console.command.public_alias.App\Command\Beautyinsertcsv</parameter>
+      <parameter>console.command.public_alias.App\Command\Clothingcsv</parameter>
+      <parameter>console.command.public_alias.App\Command\Electroniccsv</parameter>
       <parameter>console.command.public_alias.Pimcore\Bundle\CoreBundle\Command\Bundle\ListCommand</parameter>
       <parameter>console.command.public_alias.Pimcore\Bundle\CoreBundle\Command\CacheWarmingCommand</parameter>
       <parameter>console.command.public_alias.Pimcore\Bundle\CoreBundle\Command\ClassesDefinitionsBuildCommand</parameter>
@@ -1234,6 +1237,18 @@
       <call method="setContainer">
         <argument type="service" id=".service_locator.Z3eEsyj.App\Controller\Web2printController"/>
       </call>
+    </service>
+    <service id="App\Command\Beautyinsertcsv" class="App\Command\Beautyinsertcsv" autowire="true" autoconfigure="true">
+      <tag name="console.command"/>
+      <tag name="container.no_preload"/>
+    </service>
+    <service id="App\Command\Clothingcsv" class="App\Command\Clothingcsv" autowire="true" autoconfigure="true">
+      <tag name="console.command"/>
+      <tag name="container.no_preload"/>
+    </service>
+    <service id="App\Command\Electroniccsv" class="App\Command\Electroniccsv" autowire="true" autoconfigure="true">
+      <tag name="console.command"/>
+      <tag name="container.no_preload"/>
     </service>
     <service id="argument_metadata_factory" class="Symfony\Component\HttpKernel\ControllerMetadata\ArgumentMetadataFactory"/>
     <service id="response_listener" class="Symfony\Component\HttpKernel\EventListener\ResponseListener">
@@ -11776,6 +11791,12 @@
     <service id=".instanceof.Symfony\Contracts\Service\ServiceSubscriberInterface.0.App\Controller\Web2printController" class="App\Controller\Web2printController" public="true" autowire="true" abstract="true"/>
     <service id=".instanceof.Symfony\Bundle\FrameworkBundle\Controller\AbstractController.0.App\Controller\Web2printController" class="App\Controller\Web2printController" public="true" autowire="true" abstract="true"/>
     <service id=".abstract.instanceof.App\Controller\Web2printController" class="App\Controller\Web2printController" public="true" autowire="true" autoconfigure="true" abstract="true"/>
+    <service id=".instanceof.Symfony\Component\Console\Command\Command.0.App\Command\Beautyinsertcsv" class="App\Command\Beautyinsertcsv" autowire="true" abstract="true"/>
+    <service id=".abstract.instanceof.App\Command\Beautyinsertcsv" class="App\Command\Beautyinsertcsv" autowire="true" autoconfigure="true" abstract="true"/>
+    <service id=".instanceof.Symfony\Component\Console\Command\Command.0.App\Command\Clothingcsv" class="App\Command\Clothingcsv" autowire="true" abstract="true"/>
+    <service id=".abstract.instanceof.App\Command\Clothingcsv" class="App\Command\Clothingcsv" autowire="true" autoconfigure="true" abstract="true"/>
+    <service id=".instanceof.Symfony\Component\Console\Command\Command.0.App\Command\Electroniccsv" class="App\Command\Electroniccsv" autowire="true" abstract="true"/>
+    <service id=".abstract.instanceof.App\Command\Electroniccsv" class="App\Command\Electroniccsv" autowire="true" autoconfigure="true" abstract="true"/>
     <service id=".instanceof.Symfony\Component\HttpKernel\CacheWarmer\CacheWarmerInterface.0.Pimcore\HttpKernel\CacheWarmer\MkdirCacheWarmer" class="Pimcore\HttpKernel\CacheWarmer\MkdirCacheWarmer" autowire="true" abstract="true"/>
     <service id=".abstract.instanceof.Pimcore\HttpKernel\CacheWarmer\MkdirCacheWarmer" class="Pimcore\HttpKernel\CacheWarmer\MkdirCacheWarmer" autowire="true" autoconfigure="true" abstract="true"/>
     <service id=".instanceof.Symfony\Component\HttpKernel\CacheWarmer\CacheWarmerInterface.0.Pimcore\HttpKernel\CacheWarmer\PimcoreCoreCacheWarmer" class="Pimcore\HttpKernel\CacheWarmer\PimcoreCoreCacheWarmer" autowire="true" abstract="true"/>
@@ -15340,6 +15361,9 @@
     <service id=".service_locator.aa1PbBb" alias=".service_locator.nLgZj7R"/>
     <service id=".service_locator.zlDwv4E" alias=".service_locator.eYe0Ese"/>
     <service id=".service_locator.dOLgA_b" alias=".service_locator.kdHTR1k"/>
+    <service id="console.command.public_alias.App\Command\Beautyinsertcsv" alias="App\Command\Beautyinsertcsv" public="true"/>
+    <service id="console.command.public_alias.App\Command\Clothingcsv" alias="App\Command\Clothingcsv" public="true"/>
+    <service id="console.command.public_alias.App\Command\Electroniccsv" alias="App\Command\Electroniccsv" public="true"/>
     <service id="console.command.public_alias.Pimcore\Bundle\CoreBundle\Command\Bundle\ListCommand" alias="Pimcore\Bundle\CoreBundle\Command\Bundle\ListCommand" public="true"/>
     <service id="console.command.public_alias.Pimcore\Bundle\CoreBundle\Command\CacheWarmingCommand" alias="Pimcore\Bundle\CoreBundle\Command\CacheWarmingCommand" public="true"/>
     <service id="console.command.public_alias.Pimcore\Bundle\CoreBundle\Command\ClassesDefinitionsBuildCommand" alias="Pimcore\Bundle\CoreBundle\Command\ClassesDefinitionsBuildCommand" public="true"/>
