@@ -58,48 +58,118 @@ class __TwigTemplate_88b4fb32026fb13cb58b895a14bdd917 extends Template
       
     <title>Example</title>
 </head>
+  <nav class=\"navbar navbar-expand-lg navbar-dark \" style=\"background-color:gray;\">
+      <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarTogglerDemo01\" aria-controls=\"navbarTogglerDemo01\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">
+         <span class=\"navbar-toggler-icon\"></span>
+      </button>
+      <div class=\"collapse navbar-collapse\" id=\"navbarTogglerDemo01\" >
+         <ul class=\"navbar-nav mr-auto mt-2 mt-lg-0;\">
+            <li class=\"nav-item \">
+            <a class=\"nav-link\" href=\"http://main_project/Clothing?pimcore_preview=true&_dc=1673374912269\">Home <span class=\"sr-only\">(current)</span></a>
+            </li>
+            <li class=\"nav-item\">
+            <a class=\"nav-link\" href=\"http://main_project/EthinicWear?pimcore_preview=true&_dc=1673380029833\">Ethnic Wear</a>
+            </li>
+            <li class=\"nav-item\">
+            <a class=\"nav-link \" href=\"http://main_project/EthinicWear?pimcore_preview=true&_dc=1673380029833\">Western Wear</a>
+            </li>
+            <li class=\"nav-item\">
+            <a class=\"nav-link\" href=\"http://main_project/EthinicWear?pimcore_preview=true&_dc=1673380029833\">Sports Wear</a>
+            </li>
+            <li class=\"nav-item\">
+            <a class=\"nav-link\" href=\"http://main_project/EthinicWear?pimcore_preview=true&_dc=1673380029833\">Winter Wear</a>
+            </li>
+         </ul>
+         <form class=\"form-inline my-2 my-lg-0\">
+            <input class=\"form-control mr-sm-2\" type=\"search\" placeholder=\"Search\" aria-label=\"Search\">
+            <button class=\"btn btn-outline-warning my-2 my-sm-0\" type=\"submit\">Search</button>
+         </form>
+      </div>
+   </nav>
 
 
 <div class=\"row\" style=\"margin-top:20px;\" >
   
 
 <body>
-
     ";
-        // line 24
+        // line 51
         $context['_parent'] = $context;
         $context['_seq'] = twig_ensure_traversable($context["object"]);
         foreach ($context['_seq'] as $context["_key"] => $context["object"]) {
-            // line 25
+            // line 52
             echo "    <div class=\"col-md-3\" >
-    <div style=\"border:solid Gray;\"align=\"center;\">
-            
+    <div style=\"border:solid Gray;margin-top:20px;\"align=\"center;\"> 
             <img class=\"rounded mx-auto d-block\" src=\"";
-            // line 28
-            echo twig_escape_filter($this->env, $this->sandbox->ensureToStringAllowed(twig_get_attribute($this->env, $this->source, $context["object"], "getimages", [], "method", false, false, true, 28), 28, $this->source), "html", null, true);
-            echo "\"style=\"height:200px; widht:100px;\"/> 
-            ";
-            // line 30
-            echo "            <p 
+            // line 54
+            echo twig_escape_filter($this->env, $this->sandbox->ensureToStringAllowed(twig_get_attribute($this->env, $this->source, $context["object"], "getimages", [], "method", false, false, true, 54), 54, $this->source), "html", null, true);
+            echo "\"style=\"height:300px; widht:150px;margin-top:20px;\" align=\"center\" /><br> 
+            <h5 align=\"center\"style=\"color:Red\"> ";
+            // line 55
+            echo twig_escape_filter($this->env, $this->sandbox->ensureToStringAllowed(twig_get_attribute($this->env, $this->source, $context["object"], "getWearType", [], "any", false, false, true, 55), 55, $this->source), "html", null, true);
+            echo " </h5>
+            <h3 align=\"center\"style=\"color:green\">Price :";
+            // line 56
+            echo twig_escape_filter($this->env, $this->sandbox->ensureToStringAllowed(twig_get_attribute($this->env, $this->source, $context["object"], "getPrice", [], "any", false, false, true, 56), 56, $this->source), "html", null, true);
+            echo " </h3>
+            <p style=\"height:100px; widht:100px;margin-top:20px;\" align=\"center\" > 
                ";
-            // line 31
-            echo twig_escape_filter($this->env, $this->sandbox->ensureToStringAllowed(twig_get_attribute($this->env, $this->source, $context["object"], "getDescription", [], "method", false, false, true, 31), 31, $this->source), "html", null, true);
+            // line 58
+            echo twig_escape_filter($this->env, $this->sandbox->ensureToStringAllowed(twig_get_attribute($this->env, $this->source, $context["object"], "getDescription", [], "method", false, false, true, 58), 58, $this->source), "html", null, true);
             echo " </p>
          </div>
-      </div>
-      ";
-            // line 51
-            echo "
-    
+      </div> 
     ";
         }
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['object'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 54
+        // line 62
         echo "
-    </body>
-    </html>";
+
+
+<!--footer-->
+     <div class=\"footer_section layout_padding\"style=\"margin-top:20px;\">
+         <div class=\"container\">
+            <div class=\"subscribe_bt\"><a href=\"#\">Subscribe</a></div>
+            <input type=\"text\" class=\"email_text\" placeholder=\"Enter Your Email\" name=\"Enter Your Email\">
+            <div class=\"footer_section_2\">
+               <div class=\"row\">
+                  <div class=\"col-lg-3 margin_top\">
+                     <div class=\"call_text\"><a href=\"#\"><img src=\"images/call-icon1.png\"><span class=\"padding_left_15\">Call Now +01 9876543210</span></a></div>
+                     <div class=\"call_text\"><a href=\"#\"><img src=\"images/mail-icon1.png\"><span class=\"padding_left_15\">demo@gmail.com</span></a></div>
+                  </div>
+                  <div class=\"col-lg-3\">
+                     <div class=\"information_main\">
+                        <h4 class=\"information_text\">Information</h4>
+                        <p class=\"many_text\">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration</p>
+                     </div>
+                  </div>
+                  <div class=\"col-lg-3 col-md-6\">
+                     <div class=\"information_main\">
+                        <h4 class=\"information_text\">Helpful Links</h4>
+                        <div class=\"footer_menu\">
+                           <ul>
+                              <li><a href=\"index.html\">Home</a></li>
+                              <li><a href=\"about.html\">About</a></li>
+                              <li><a href=\"services.html\">Services</a></li>
+                              <li><a href=\"blog.html\">Blog</a></li>
+                              <li><a href=\"news.html\">News</a></li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+                  <div class=\"col-lg-3\">
+                     <div class=\"information_main\">
+                        <div class=\"footer_logo\"><a href=\"index.html\"><img src=\"images/Elogo.jpg\"></a></div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+</body>
+</html>";
         
         $__internal_5a27a8ba21ca79b61932376b2fa922d2->leave($__internal_5a27a8ba21ca79b61932376b2fa922d2_prof);
 
@@ -120,7 +190,7 @@ class __TwigTemplate_88b4fb32026fb13cb58b895a14bdd917 extends Template
 
     public function getDebugInfo()
     {
-        return array (  100 => 54,  92 => 51,  86 => 31,  83 => 30,  79 => 28,  74 => 25,  70 => 24,  45 => 1,);
+        return array (  128 => 62,  118 => 58,  113 => 56,  109 => 55,  105 => 54,  101 => 52,  97 => 51,  45 => 1,);
     }
 
     public function getSourceContext()
@@ -141,52 +211,102 @@ class __TwigTemplate_88b4fb32026fb13cb58b895a14bdd917 extends Template
       
     <title>Example</title>
 </head>
+  <nav class=\"navbar navbar-expand-lg navbar-dark \" style=\"background-color:gray;\">
+      <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarTogglerDemo01\" aria-controls=\"navbarTogglerDemo01\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">
+         <span class=\"navbar-toggler-icon\"></span>
+      </button>
+      <div class=\"collapse navbar-collapse\" id=\"navbarTogglerDemo01\" >
+         <ul class=\"navbar-nav mr-auto mt-2 mt-lg-0;\">
+            <li class=\"nav-item \">
+            <a class=\"nav-link\" href=\"http://main_project/Clothing?pimcore_preview=true&_dc=1673374912269\">Home <span class=\"sr-only\">(current)</span></a>
+            </li>
+            <li class=\"nav-item\">
+            <a class=\"nav-link\" href=\"http://main_project/EthinicWear?pimcore_preview=true&_dc=1673380029833\">Ethnic Wear</a>
+            </li>
+            <li class=\"nav-item\">
+            <a class=\"nav-link \" href=\"http://main_project/EthinicWear?pimcore_preview=true&_dc=1673380029833\">Western Wear</a>
+            </li>
+            <li class=\"nav-item\">
+            <a class=\"nav-link\" href=\"http://main_project/EthinicWear?pimcore_preview=true&_dc=1673380029833\">Sports Wear</a>
+            </li>
+            <li class=\"nav-item\">
+            <a class=\"nav-link\" href=\"http://main_project/EthinicWear?pimcore_preview=true&_dc=1673380029833\">Winter Wear</a>
+            </li>
+         </ul>
+         <form class=\"form-inline my-2 my-lg-0\">
+            <input class=\"form-control mr-sm-2\" type=\"search\" placeholder=\"Search\" aria-label=\"Search\">
+            <button class=\"btn btn-outline-warning my-2 my-sm-0\" type=\"submit\">Search</button>
+         </form>
+      </div>
+   </nav>
 
 
 <div class=\"row\" style=\"margin-top:20px;\" >
   
 
 <body>
-
     {% for object in object %}
     <div class=\"col-md-3\" >
-    <div style=\"border:solid Gray;\"align=\"center;\">
-            
-            <img class=\"rounded mx-auto d-block\" src=\"{{ object.getimages() }}\"style=\"height:200px; widht:100px;\"/> 
-            {# <h3 align=\"center\">Price :{{ object.getPrice}} <del style=\"color:red;\"> 5,000</del></h3> #}
-            <p 
+    <div style=\"border:solid Gray;margin-top:20px;\"align=\"center;\"> 
+            <img class=\"rounded mx-auto d-block\" src=\"{{ object.getimages() }}\"style=\"height:300px; widht:150px;margin-top:20px;\" align=\"center\" /><br> 
+            <h5 align=\"center\"style=\"color:Red\"> {{ object.getWearType}} </h5>
+            <h3 align=\"center\"style=\"color:green\">Price :{{ object.getPrice}} </h3>
+            <p style=\"height:100px; widht:100px;margin-top:20px;\" align=\"center\" > 
                {{object.getDescription()}} </p>
          </div>
-      </div>
-      {# <div class=\"col-md-3\" >
-         <div style=\"border:solid Gray;\">
-            <h1 align=\"center\"><b>Womens Wear</b></h1>
-            <img class=\"rounded mx-auto d-block\" src=\"images/WomenKurta.jpeg\"style=\"height:200px; widht:100px;\"/> 
-            <h3 align=\"center\">Price : 3,599 <del style=\"color:red;\"> 5,999</del></h3>
-            <p>Kurtas are the soul of Indian traditional wear and are one of the most versatile pieces of clothing in a Woman's wardrobe.</p>
-         </div>
-      </div>
-       <div class=\"col-md-3\" >
-         <div style=\"border:solid Gray;\">
-            <h1 align=\"center\"><b>kids Wear</b></h1>
-            <img class=\"rounded mx-auto d-block\" src=\"images/kidskurta.jpg\" style=\"height:200px; widht:100px;\"/> 
-            <h3 align=\"center\">Price : 2,099 <del style=\"color:red;\"> 4,000</del></h3>
-            <p>Kurtas are the soul of Indian traditional wear and are one of the most versatile pieces of clothing in a Kid's wardrobe.</p>
-         </div>
-      </div>
-    </div> #}
-
-    
+      </div> 
     {% endfor %}
 
-    </body>
-    </html>", "default/EthinicWear.html.twig", "/var/www/html/pimcore/main_project/templates/default/EthinicWear.html.twig");
+
+
+<!--footer-->
+     <div class=\"footer_section layout_padding\"style=\"margin-top:20px;\">
+         <div class=\"container\">
+            <div class=\"subscribe_bt\"><a href=\"#\">Subscribe</a></div>
+            <input type=\"text\" class=\"email_text\" placeholder=\"Enter Your Email\" name=\"Enter Your Email\">
+            <div class=\"footer_section_2\">
+               <div class=\"row\">
+                  <div class=\"col-lg-3 margin_top\">
+                     <div class=\"call_text\"><a href=\"#\"><img src=\"images/call-icon1.png\"><span class=\"padding_left_15\">Call Now +01 9876543210</span></a></div>
+                     <div class=\"call_text\"><a href=\"#\"><img src=\"images/mail-icon1.png\"><span class=\"padding_left_15\">demo@gmail.com</span></a></div>
+                  </div>
+                  <div class=\"col-lg-3\">
+                     <div class=\"information_main\">
+                        <h4 class=\"information_text\">Information</h4>
+                        <p class=\"many_text\">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration</p>
+                     </div>
+                  </div>
+                  <div class=\"col-lg-3 col-md-6\">
+                     <div class=\"information_main\">
+                        <h4 class=\"information_text\">Helpful Links</h4>
+                        <div class=\"footer_menu\">
+                           <ul>
+                              <li><a href=\"index.html\">Home</a></li>
+                              <li><a href=\"about.html\">About</a></li>
+                              <li><a href=\"services.html\">Services</a></li>
+                              <li><a href=\"blog.html\">Blog</a></li>
+                              <li><a href=\"news.html\">News</a></li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+                  <div class=\"col-lg-3\">
+                     <div class=\"information_main\">
+                        <div class=\"footer_logo\"><a href=\"index.html\"><img src=\"images/Elogo.jpg\"></a></div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+</body>
+</html>", "default/EthinicWear.html.twig", "/var/www/html/pimcore/main_project/templates/default/EthinicWear.html.twig");
     }
     
     public function checkSecurity()
     {
-        static $tags = array("for" => 24);
-        static $filters = array("escape" => 28);
+        static $tags = array("for" => 51);
+        static $filters = array("escape" => 54);
         static $functions = array();
 
         try {

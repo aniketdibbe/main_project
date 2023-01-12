@@ -5,15 +5,13 @@
  * Variants: no
  *
  * Fields Summary:
+ * - WearType [input]
  * - gender [select]
  * - category [classificationstore]
  * - images [image]
  * - Description [textarea]
+ * - Price [numeric]
  * - Query [objectbricks]
- * - SKU [input]
- * - Electronics [classificationstore]
- * - MadeInCountry [country]
- * - Warranty [numeric]
  */
 
 namespace Pimcore\Model\DataObject;
@@ -23,27 +21,24 @@ use Pimcore\Model\DataObject\PreGetValueHookInterface;
 
 /**
 * @method static \Pimcore\Model\DataObject\Ecommerce\Listing getList(array $config = [])
+* @method static \Pimcore\Model\DataObject\Ecommerce\Listing|\Pimcore\Model\DataObject\Ecommerce|null getByWearType($value, $limit = 0, $offset = 0, $objectTypes = null)
 * @method static \Pimcore\Model\DataObject\Ecommerce\Listing|\Pimcore\Model\DataObject\Ecommerce|null getByGender($value, $limit = 0, $offset = 0, $objectTypes = null)
 * @method static \Pimcore\Model\DataObject\Ecommerce\Listing|\Pimcore\Model\DataObject\Ecommerce|null getByImages($value, $limit = 0, $offset = 0, $objectTypes = null)
 * @method static \Pimcore\Model\DataObject\Ecommerce\Listing|\Pimcore\Model\DataObject\Ecommerce|null getByDescription($value, $limit = 0, $offset = 0, $objectTypes = null)
-* @method static \Pimcore\Model\DataObject\Ecommerce\Listing|\Pimcore\Model\DataObject\Ecommerce|null getBySKU($value, $limit = 0, $offset = 0, $objectTypes = null)
-* @method static \Pimcore\Model\DataObject\Ecommerce\Listing|\Pimcore\Model\DataObject\Ecommerce|null getByMadeInCountry($value, $limit = 0, $offset = 0, $objectTypes = null)
-* @method static \Pimcore\Model\DataObject\Ecommerce\Listing|\Pimcore\Model\DataObject\Ecommerce|null getByWarranty($value, $limit = 0, $offset = 0, $objectTypes = null)
+* @method static \Pimcore\Model\DataObject\Ecommerce\Listing|\Pimcore\Model\DataObject\Ecommerce|null getByPrice($value, $limit = 0, $offset = 0, $objectTypes = null)
 */
 
 class Ecommerce extends Concrete
 {
 protected $o_classId = "1";
 protected $o_className = "Ecommerce";
+protected $WearType;
 protected $gender;
 protected $category;
 protected $images;
 protected $Description;
+protected $Price;
 protected $Query;
-protected $SKU;
-protected $Electronics;
-protected $MadeInCountry;
-protected $Warranty;
 
 
 /**
@@ -54,6 +49,40 @@ public static function create($values = array()) {
 	$object = new static();
 	$object->setValues($values);
 	return $object;
+}
+
+/**
+* Get WearType - Name
+* @return string|null
+*/
+public function getWearType(): ?string
+{
+	if ($this instanceof PreGetValueHookInterface && !\Pimcore::inAdmin()) {
+		$preValue = $this->preGetValue("WearType");
+		if ($preValue !== null) {
+			return $preValue;
+		}
+	}
+
+	$data = $this->WearType;
+
+	if ($data instanceof \Pimcore\Model\DataObject\Data\EncryptedField) {
+		return $data->getPlain();
+	}
+
+	return $data;
+}
+
+/**
+* Set WearType - Name
+* @param string|null $WearType
+* @return \Pimcore\Model\DataObject\Ecommerce
+*/
+public function setWearType(?string $WearType)
+{
+	$this->WearType = $WearType;
+
+	return $this;
 }
 
 /**
@@ -189,6 +218,41 @@ public function setDescription(?string $Description)
 }
 
 /**
+* Get Price - Price
+* @return float|null
+*/
+public function getPrice(): ?float
+{
+	if ($this instanceof PreGetValueHookInterface && !\Pimcore::inAdmin()) {
+		$preValue = $this->preGetValue("Price");
+		if ($preValue !== null) {
+			return $preValue;
+		}
+	}
+
+	$data = $this->Price;
+
+	if ($data instanceof \Pimcore\Model\DataObject\Data\EncryptedField) {
+		return $data->getPlain();
+	}
+
+	return $data;
+}
+
+/**
+* Set Price - Price
+* @param float|null $Price
+* @return \Pimcore\Model\DataObject\Ecommerce
+*/
+public function setPrice(?float $Price)
+{
+	/** @var \Pimcore\Model\DataObject\ClassDefinition\Data\Numeric $fd */
+	$fd = $this->getClass()->getFieldDefinition("Price");
+	$this->Price = $fd->preSetData($this, $Price);
+	return $this;
+}
+
+/**
 * @return \Pimcore\Model\DataObject\Ecommerce\Query
 */
 public function getQuery(): ?\Pimcore\Model\DataObject\Objectbrick
@@ -222,139 +286,6 @@ public function setQuery(?\Pimcore\Model\DataObject\Objectbrick $Query)
 	/** @var \Pimcore\Model\DataObject\ClassDefinition\Data\Objectbricks $fd */
 	$fd = $this->getClass()->getFieldDefinition("Query");
 	$this->Query = $fd->preSetData($this, $Query);
-	return $this;
-}
-
-/**
-* Get SKU - S K U
-* @return string|null
-*/
-public function getSKU(): ?string
-{
-	if ($this instanceof PreGetValueHookInterface && !\Pimcore::inAdmin()) {
-		$preValue = $this->preGetValue("SKU");
-		if ($preValue !== null) {
-			return $preValue;
-		}
-	}
-
-	$data = $this->SKU;
-
-	if ($data instanceof \Pimcore\Model\DataObject\Data\EncryptedField) {
-		return $data->getPlain();
-	}
-
-	return $data;
-}
-
-/**
-* Set SKU - S K U
-* @param string|null $SKU
-* @return \Pimcore\Model\DataObject\Ecommerce
-*/
-public function setSKU(?string $SKU)
-{
-	$this->SKU = $SKU;
-
-	return $this;
-}
-
-/**
-* Get Electronics - Electronics
-* @return \Pimcore\Model\DataObject\Classificationstore|null
-*/
-public function getElectronics(): ?\Pimcore\Model\DataObject\Classificationstore
-{
-	if ($this instanceof PreGetValueHookInterface && !\Pimcore::inAdmin()) {
-		$preValue = $this->preGetValue("Electronics");
-		if ($preValue !== null) {
-			return $preValue;
-		}
-	}
-
-	$data = $this->getClass()->getFieldDefinition("Electronics")->preGetData($this);
-
-	return $data;
-}
-
-/**
-* Set Electronics - Electronics
-* @param \Pimcore\Model\DataObject\Classificationstore|null $Electronics
-* @return \Pimcore\Model\DataObject\Ecommerce
-*/
-public function setElectronics(?\Pimcore\Model\DataObject\Classificationstore $Electronics)
-{
-	$this->Electronics = $Electronics;
-
-	return $this;
-}
-
-/**
-* Get MadeInCountry - Made In Country
-* @return string|null
-*/
-public function getMadeInCountry(): ?string
-{
-	if ($this instanceof PreGetValueHookInterface && !\Pimcore::inAdmin()) {
-		$preValue = $this->preGetValue("MadeInCountry");
-		if ($preValue !== null) {
-			return $preValue;
-		}
-	}
-
-	$data = $this->MadeInCountry;
-
-	if ($data instanceof \Pimcore\Model\DataObject\Data\EncryptedField) {
-		return $data->getPlain();
-	}
-
-	return $data;
-}
-
-/**
-* Set MadeInCountry - Made In Country
-* @param string|null $MadeInCountry
-* @return \Pimcore\Model\DataObject\Ecommerce
-*/
-public function setMadeInCountry(?string $MadeInCountry)
-{
-	$this->MadeInCountry = $MadeInCountry;
-
-	return $this;
-}
-
-/**
-* Get Warranty - Warranty
-* @return float|null
-*/
-public function getWarranty(): ?float
-{
-	if ($this instanceof PreGetValueHookInterface && !\Pimcore::inAdmin()) {
-		$preValue = $this->preGetValue("Warranty");
-		if ($preValue !== null) {
-			return $preValue;
-		}
-	}
-
-	$data = $this->Warranty;
-
-	if ($data instanceof \Pimcore\Model\DataObject\Data\EncryptedField) {
-		return $data->getPlain();
-	}
-
-	return $data;
-}
-
-/**
-* Set Warranty - Warranty
-* @param float|null $Warranty
-* @return \Pimcore\Model\DataObject\Ecommerce
-*/
-public function setWarranty(?float $Warranty)
-{
-	/** @var \Pimcore\Model\DataObject\ClassDefinition\Data\Numeric $fd */
-	$fd = $this->getClass()->getFieldDefinition("Warranty");
-	$this->Warranty = $fd->preSetData($this, $Warranty);
 	return $this;
 }
 

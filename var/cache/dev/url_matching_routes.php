@@ -550,6 +550,8 @@ return [
         '/admin/gdpr/pimcore-users/export-user-data' => [[['_route' => 'pimcore_admin_gdpr_pimcoreusers_exportuserdata', '_controller' => 'Pimcore\\Bundle\\AdminBundle\\Controller\\GDPR\\PimcoreUsersController::exportUserDataAction'], null, ['GET' => 0], null, false, false, null]],
         '/admin/gdpr/sent-mail/export' => [[['_route' => 'pimcore_admin_gdpr_sentmail_exportdataobject', '_controller' => 'Pimcore\\Bundle\\AdminBundle\\Controller\\GDPR\\SentMailController::exportDataObjectAction'], null, ['GET' => 0], null, false, false, null]],
         '/clothing' => [[['_route' => 'clothing-added', '_controller' => 'App\\Controller\\DefaultController::EthinicAction'], null, ['GET' => 0], null, false, false, null]],
+        '/elctronics' => [[['_route' => 'electronic-added', '_controller' => 'App\\Controller\\DefaultController::DeviceAction'], null, ['GET' => 0], null, false, false, null]],
+        '/Product' => [[['_route' => 'Product', '_controller' => 'App\\Controller\\DefaultController::BeautyProductAction'], null, ['GET' => 0], null, false, false, null]],
     ],
     [ // $regexpList
         0 => '{^(?'

@@ -5,15 +5,13 @@
  * Variants: no
  *
  * Fields Summary:
+ * - WearType [input]
  * - gender [select]
  * - category [classificationstore]
  * - images [image]
  * - Description [textarea]
+ * - Price [numeric]
  * - Query [objectbricks]
- * - SKU [input]
- * - Electronics [classificationstore]
- * - MadeInCountry [country]
- * - Warranty [numeric]
  */
 
 return \Pimcore\Model\DataObject\ClassDefinition::__set_state(array(
@@ -22,7 +20,7 @@ return \Pimcore\Model\DataObject\ClassDefinition::__set_state(array(
    'name' => 'Ecommerce',
    'description' => '',
    'creationDate' => 0,
-   'modificationDate' => 1673339146,
+   'modificationDate' => 1673422928,
    'userOwner' => 2,
    'userModification' => 2,
    'parentClass' => '',
@@ -101,6 +99,37 @@ return \Pimcore\Model\DataObject\ClassDefinition::__set_state(array(
                  'children' => 
                 array (
                   0 => 
+                  \Pimcore\Model\DataObject\ClassDefinition\Data\Input::__set_state(array(
+                     'name' => 'WearType',
+                     'title' => 'Name',
+                     'tooltip' => '',
+                     'mandatory' => false,
+                     'noteditable' => false,
+                     'index' => false,
+                     'locked' => false,
+                     'style' => '',
+                     'permissions' => NULL,
+                     'datatype' => 'data',
+                     'fieldtype' => 'input',
+                     'relationType' => false,
+                     'invisible' => false,
+                     'visibleGridView' => false,
+                     'visibleSearch' => false,
+                     'blockedVarsForExport' => 
+                    array (
+                    ),
+                     'width' => '',
+                     'defaultValue' => NULL,
+                     'columnLength' => 190,
+                     'regex' => '',
+                     'regexFlags' => 
+                    array (
+                    ),
+                     'unique' => false,
+                     'showCharCount' => false,
+                     'defaultValueGenerator' => '',
+                  )),
+                  1 => 
                   \Pimcore\Model\DataObject\ClassDefinition\Data\Select::__set_state(array(
                      'name' => 'gender',
                      'title' => 'Gender',
@@ -146,7 +175,7 @@ return \Pimcore\Model\DataObject\ClassDefinition::__set_state(array(
                      'dynamicOptions' => false,
                      'defaultValueGenerator' => '',
                   )),
-                  1 => 
+                  2 => 
                   \Pimcore\Model\DataObject\ClassDefinition\Data\Classificationstore::__set_state(array(
                      'name' => 'category',
                      'title' => 'category',
@@ -193,7 +222,7 @@ return \Pimcore\Model\DataObject\ClassDefinition::__set_state(array(
                      'permissionView' => NULL,
                      'permissionEdit' => NULL,
                   )),
-                  2 => 
+                  3 => 
                   \Pimcore\Model\DataObject\ClassDefinition\Data\Image::__set_state(array(
                      'name' => 'images',
                      'title' => 'Images',
@@ -217,7 +246,7 @@ return \Pimcore\Model\DataObject\ClassDefinition::__set_state(array(
                      'height' => 200,
                      'uploadPath' => '',
                   )),
-                  3 => 
+                  4 => 
                   \Pimcore\Model\DataObject\ClassDefinition\Data\Textarea::__set_state(array(
                      'name' => 'Description',
                      'title' => 'Description',
@@ -242,6 +271,37 @@ return \Pimcore\Model\DataObject\ClassDefinition::__set_state(array(
                      'maxLength' => NULL,
                      'showCharCount' => false,
                      'excludeFromSearchIndex' => false,
+                  )),
+                  5 => 
+                  \Pimcore\Model\DataObject\ClassDefinition\Data\Numeric::__set_state(array(
+                     'name' => 'Price',
+                     'title' => 'Price',
+                     'tooltip' => '',
+                     'mandatory' => false,
+                     'noteditable' => false,
+                     'index' => false,
+                     'locked' => false,
+                     'style' => '',
+                     'permissions' => NULL,
+                     'datatype' => 'data',
+                     'fieldtype' => 'numeric',
+                     'relationType' => false,
+                     'invisible' => false,
+                     'visibleGridView' => false,
+                     'visibleSearch' => false,
+                     'blockedVarsForExport' => 
+                    array (
+                    ),
+                     'width' => '',
+                     'defaultValue' => NULL,
+                     'integer' => false,
+                     'unsigned' => false,
+                     'minValue' => NULL,
+                     'maxValue' => NULL,
+                     'unique' => false,
+                     'decimalSize' => NULL,
+                     'decimalPrecision' => NULL,
+                     'defaultValueGenerator' => '',
                   )),
                 ),
                  'locked' => false,
@@ -308,171 +368,6 @@ return \Pimcore\Model\DataObject\ClassDefinition::__set_state(array(
                  'icon' => '',
                  'labelWidth' => 0,
                  'labelAlign' => 'left',
-              )),
-            ),
-             'locked' => false,
-             'blockedVarsForExport' => 
-            array (
-            ),
-             'fieldtype' => 'panel',
-             'layout' => NULL,
-             'border' => false,
-             'icon' => '',
-             'labelWidth' => 0,
-             'labelAlign' => 'left',
-          )),
-          1 => 
-          \Pimcore\Model\DataObject\ClassDefinition\Layout\Panel::__set_state(array(
-             'name' => 'Electronics',
-             'type' => NULL,
-             'region' => NULL,
-             'title' => 'Electronics',
-             'width' => '',
-             'height' => '',
-             'collapsible' => false,
-             'collapsed' => false,
-             'bodyStyle' => '',
-             'datatype' => 'layout',
-             'permissions' => NULL,
-             'children' => 
-            array (
-              0 => 
-              \Pimcore\Model\DataObject\ClassDefinition\Data\Input::__set_state(array(
-                 'name' => 'SKU',
-                 'title' => 'S K U',
-                 'tooltip' => '',
-                 'mandatory' => false,
-                 'noteditable' => false,
-                 'index' => false,
-                 'locked' => false,
-                 'style' => '',
-                 'permissions' => NULL,
-                 'datatype' => 'data',
-                 'fieldtype' => 'input',
-                 'relationType' => false,
-                 'invisible' => false,
-                 'visibleGridView' => false,
-                 'visibleSearch' => false,
-                 'blockedVarsForExport' => 
-                array (
-                ),
-                 'width' => '',
-                 'defaultValue' => NULL,
-                 'columnLength' => 190,
-                 'regex' => '',
-                 'regexFlags' => 
-                array (
-                ),
-                 'unique' => false,
-                 'showCharCount' => false,
-                 'defaultValueGenerator' => '',
-              )),
-              1 => 
-              \Pimcore\Model\DataObject\ClassDefinition\Data\Classificationstore::__set_state(array(
-                 'name' => 'Electronics',
-                 'title' => 'Electronics',
-                 'tooltip' => '',
-                 'mandatory' => false,
-                 'noteditable' => false,
-                 'index' => false,
-                 'locked' => false,
-                 'style' => '',
-                 'permissions' => NULL,
-                 'datatype' => 'data',
-                 'fieldtype' => 'classificationstore',
-                 'relationType' => false,
-                 'invisible' => false,
-                 'visibleGridView' => false,
-                 'visibleSearch' => false,
-                 'blockedVarsForExport' => 
-                array (
-                ),
-                 'children' => 
-                array (
-                ),
-                 'region' => NULL,
-                 'layout' => NULL,
-                 'width' => 0,
-                 'height' => 0,
-                 'maxTabs' => NULL,
-                 'labelWidth' => 0,
-                 'localized' => false,
-                 'storeId' => 2,
-                 'hideEmptyData' => false,
-                 'disallowAddRemove' => false,
-                 'referencedFields' => 
-                array (
-                ),
-                 'fieldDefinitionsCache' => NULL,
-                 'allowedGroupIds' => 
-                array (
-                ),
-                 'activeGroupDefinitions' => 
-                array (
-                ),
-                 'maxItems' => NULL,
-                 'permissionView' => NULL,
-                 'permissionEdit' => NULL,
-              )),
-              2 => 
-              \Pimcore\Model\DataObject\ClassDefinition\Data\Country::__set_state(array(
-                 'name' => 'MadeInCountry',
-                 'title' => 'Made In Country',
-                 'tooltip' => '',
-                 'mandatory' => false,
-                 'noteditable' => false,
-                 'index' => false,
-                 'locked' => false,
-                 'style' => '',
-                 'permissions' => NULL,
-                 'datatype' => 'data',
-                 'fieldtype' => 'country',
-                 'relationType' => false,
-                 'invisible' => false,
-                 'visibleGridView' => false,
-                 'visibleSearch' => false,
-                 'blockedVarsForExport' => 
-                array (
-                ),
-                 'width' => '',
-                 'defaultValue' => NULL,
-                 'optionsProviderClass' => NULL,
-                 'optionsProviderData' => NULL,
-                 'columnLength' => 190,
-                 'dynamicOptions' => false,
-                 'defaultValueGenerator' => '',
-                 'restrictTo' => '',
-              )),
-              3 => 
-              \Pimcore\Model\DataObject\ClassDefinition\Data\Numeric::__set_state(array(
-                 'name' => 'Warranty',
-                 'title' => 'Warranty',
-                 'tooltip' => '',
-                 'mandatory' => false,
-                 'noteditable' => false,
-                 'index' => false,
-                 'locked' => false,
-                 'style' => '',
-                 'permissions' => NULL,
-                 'datatype' => 'data',
-                 'fieldtype' => 'numeric',
-                 'relationType' => false,
-                 'invisible' => false,
-                 'visibleGridView' => false,
-                 'visibleSearch' => false,
-                 'blockedVarsForExport' => 
-                array (
-                ),
-                 'width' => '',
-                 'defaultValue' => NULL,
-                 'integer' => false,
-                 'unsigned' => false,
-                 'minValue' => NULL,
-                 'maxValue' => NULL,
-                 'unique' => false,
-                 'decimalSize' => NULL,
-                 'decimalPrecision' => NULL,
-                 'defaultValueGenerator' => '',
               )),
             ),
              'locked' => false,

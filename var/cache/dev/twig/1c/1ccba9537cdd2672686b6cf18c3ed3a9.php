@@ -68,16 +68,16 @@ class __TwigTemplate_789d45a46389c09a99e1b9a54341e97d extends Template
             <a class=\"nav-link\" href=\"#\">Home <span class=\"sr-only\">(current)</span></a>
             </li>
             <li class=\"nav-item\">
-            <a class=\"nav-link\" href=\"#\">Ethnic Wear</a>
+            <a class=\"nav-link\" href=\"http://main_project/EthinicWear?pimcore_preview=true&_dc=1673380029833\">Ethnic Wear</a>
             </li>
             <li class=\"nav-item\">
-            <a class=\"nav-link \" href=\"#\">Western Wear</a>
+            <a class=\"nav-link \" href=\"http://main_project/EthinicWear?pimcore_preview=true&_dc=1673380029833\">Western Wear</a>
             </li>
             <li class=\"nav-item\">
-            <a class=\"nav-link\" href=\"#\">Sports Wear</a>
+            <a class=\"nav-link\" href=\"http://main_project/EthinicWear?pimcore_preview=true&_dc=1673380029833\">Sports Wear</a>
             </li>
             <li class=\"nav-item\">
-            <a class=\"nav-link\" href=\"#\">Winter Wear</a>
+            <a class=\"nav-link\" href=\"http://main_project/EthinicWear?pimcore_preview=true&_dc=1673380029833\">Winter Wear</a>
             </li>
          </ul>
          <form class=\"form-inline my-2 my-lg-0\">
@@ -101,7 +101,7 @@ class __TwigTemplate_789d45a46389c09a99e1b9a54341e97d extends Template
       <div class=\"collapse navbar-collapse\" id=\"navbarTogglerDemo01\">
          <ul class=\"navbar-nav mr-auto mt-2 mt-lg-0\">
             <li class=\"nav-item \">
-            <a class=\"nav-link\" href=\"http://main_project/clothing\">Ethinic wear <span class=\"sr-only\">(current)</span></a>
+            <a class=\"nav-link\" href=\"http://main_project/EthinicWear?pimcore_preview=true&_dc=1673380029833\">Ethinic wear <span class=\"sr-only\">(current)</span></a>
             </li>
       </div>
       </nav>
@@ -112,7 +112,7 @@ class __TwigTemplate_789d45a46389c09a99e1b9a54341e97d extends Template
        
          <div style=\"border:solid Gray;\"align=\"center;\">
             <h1 align=\"center\"><b>Mens Wear</b></h1>
-            <img class=\"rounded mx-auto d-block\" src=\"images/MenKurta.jpeg\"style=\"height:200px; widht:100px;\"/> 
+            <img class=\"rounded mx-auto d-block\" src=\"images/clothing/MenKurta.jpeg\"style=\"height:200px; widht:100px;\"/> 
             <h3 align=\"center\">Price : 2,999 <del style=\"color:red;\"> 5,000</del></h3>
             <p>
                Kurtas are the soul of Indian traditional wear and are one of the most versatile pieces of clothing in a man's wardrobe. </p>
@@ -121,7 +121,7 @@ class __TwigTemplate_789d45a46389c09a99e1b9a54341e97d extends Template
       <div class=\"col-md-3\" >
          <div style=\"border:solid Gray;\">
             <h1 align=\"center\"><b>Womens Wear</b></h1>
-            <img class=\"rounded mx-auto d-block\" src=\"images/WomenKurta.jpeg\"style=\"height:200px; widht:100px;\"/> 
+            <img class=\"rounded mx-auto d-block\" src=\"images/clothing/WomenKurta.jpeg\"style=\"height:200px; widht:100px;\"/> 
             <h3 align=\"center\">Price : 3,599 <del style=\"color:red;\"> 5,999</del></h3>
             <p>Kurtas are the soul of Indian traditional wear and are one of the most versatile pieces of clothing in a Woman's wardrobe.</p>
          </div>
@@ -129,7 +129,7 @@ class __TwigTemplate_789d45a46389c09a99e1b9a54341e97d extends Template
        <div class=\"col-md-3\" >
          <div style=\"border:solid Gray;\">
             <h1 align=\"center\"><b>kids Wear</b></h1>
-            <img class=\"rounded mx-auto d-block\" src=\"images/kidskurta.jpg\" style=\"height:200px; widht:100px;\"/> 
+            <img class=\"rounded mx-auto d-block\" src=\"images/clothing/kidskurta.jpg\" style=\"height:200px; widht:100px;\"/> 
             <h3 align=\"center\">Price : 2,099 <del style=\"color:red;\"> 4,000</del></h3>
             <p>Kurtas are the soul of Indian traditional wear and are one of the most versatile pieces of clothing in a Kid's wardrobe.</p>
          </div>
@@ -149,7 +149,7 @@ class __TwigTemplate_789d45a46389c09a99e1b9a54341e97d extends Template
       <div class=\"collapse navbar-collapse\" id=\"navbarTogglerDemo01\">
          <ul class=\"navbar-nav mr-auto mt-2 mt-lg-0\">
             <li class=\"nav-item \">
-            <a class=\"nav-link\" href=\"#\">Western wear <span class=\"sr-only\">(current)</span></a>
+            <a class=\"nav-link\" href=\"http://main_project/EthinicWear?pimcore_preview=true&_dc=1673380029833\">Western wear <span class=\"sr-only\">(current)</span></a>
             </li>
       </div>
       </nav>
@@ -158,7 +158,7 @@ class __TwigTemplate_789d45a46389c09a99e1b9a54341e97d extends Template
       
          <div style=\"border:solid Gray;\"align=\"center;\">
              <h1 align=\"center\"><b>Mens Wear</b></h1>
-            <img class=\"rounded mx-auto d-block\" src=\"images/westernMen.jpeg\"style=\"height:200px; widht:100px;\"/> 
+            <img class=\"rounded mx-auto d-block\" src=\"images/clothing/westernMen.jpeg\"style=\"height:200px; widht:100px;\"/> 
             <h3 align=\"center\">Price : 3,599 <del style=\"color:red;\"> 7,999</del></h3>
             <p>
             The western aesthetic is absolutely everywhere, with cowboy boots, fringe jackets, prairie dresses. </p>
@@ -167,7 +167,7 @@ class __TwigTemplate_789d45a46389c09a99e1b9a54341e97d extends Template
       <div class=\"col-md-3\" >
          <div style=\"border:solid Gray;\">
             <h1 align=\"center\"><b>Womens Wear</b></h1>
-            <img class=\"rounded mx-auto d-block\" src=\"images/WesternWomen.jpg\"style=\"height:200px; widht:100px;\"/> 
+            <img class=\"rounded mx-auto d-block\" src=\"images/clothing/WesternWomen.jpg\"style=\"height:200px; widht:100px;\"/> 
             <h3 align=\"center\">Price : 3,999 <del style=\"color:red;\"> 6,999</del></h3>
             <p>The western aesthetic is absolutely everywhere, with cowboy boots, fringe jackets, prairie dresses.</p>
          </div>
@@ -175,7 +175,7 @@ class __TwigTemplate_789d45a46389c09a99e1b9a54341e97d extends Template
        <div class=\"col-md-3\" >
          <div style=\"border:solid Gray;\">
               <h1 align=\"center\"><b>kids Wear</b></h1>
-            <img class=\"rounded mx-auto d-block\"  src=\"images/westernKid.jpg\"style=\"height:200px; widht:100px;\"/> 
+            <img class=\"rounded mx-auto d-block\"  src=\"images/clothing/westernKid.jpg\"style=\"height:200px; widht:100px;\"/> 
             <h3 align=\"center\">Price : 2,999 <del style=\"color:red;\"> 5,099</del></h3>
             <p>
                The western aesthetic is absolutely everywhere, with cowboy boots, fringe jackets, prairie dresses.</p>
@@ -193,7 +193,7 @@ class __TwigTemplate_789d45a46389c09a99e1b9a54341e97d extends Template
       <div class=\"collapse navbar-collapse\" id=\"navbarTogglerDemo01\">
          <ul class=\"navbar-nav mr-auto mt-2 mt-lg-0\">
             <li class=\"nav-item \">
-            <a class=\"nav-link\" href=\"#\">Winter wear <span class=\"sr-only\">(current)</span></a>
+            <a class=\"nav-link\" href=\"http://main_project/EthinicWear?pimcore_preview=true&_dc=1673380029833\">Winter wear <span class=\"sr-only\">(current)</span></a>
             </li>
       </div>
       </nav>
@@ -203,7 +203,7 @@ class __TwigTemplate_789d45a46389c09a99e1b9a54341e97d extends Template
      
          <div style=\"border:solid Gray;\"align=\"center;\">
             <h1 align=\"center\"><b>Mens Wear</b></h1>
-            <img class=\"rounded mx-auto d-block\" src=\"images/WinterMan.jpeg\"style=\"height:200px; widht:100px;\"/> 
+            <img class=\"rounded mx-auto d-block\" src=\"images/clothing/WinterMan.jpeg\"style=\"height:200px; widht:100px;\"/> 
             <h3 align=\"center\">Price : 6,999 <del style=\"color:red;\"> 10,999</del></h3>
             <p>
                Winter clothes are especially outerwear like coats, jackets, hats, scarves and gloves or mittens, earmuffs, but also warm underwear like long underwear, union suits and socks.</p>
@@ -212,7 +212,7 @@ class __TwigTemplate_789d45a46389c09a99e1b9a54341e97d extends Template
       <div class=\"col-md-3\" >
          <div style=\"border:solid Gray;\">
             <h1 align=\"center\"><b>Womens Wear</b></h1>
-            <img class=\"rounded mx-auto d-block\" src=\"images/WomenWinter.jpg\"style=\"height:200px; widht:100px;\"/> 
+            <img class=\"rounded mx-auto d-block\" src=\"images/clothing/WomenWinter.jpg\"style=\"height:200px; widht:100px;\"/> 
             <h3 align=\"center\">Price : 7,,999 <del style=\"color:red;\"> 12,999</del></h3>
             <p>
                Winter clothes are especially outerwear like coats, jackets, hats, scarves and gloves or mittens, earmuffs, but also warm underwear like long underwear, union suits and socks.</p>
@@ -221,7 +221,7 @@ class __TwigTemplate_789d45a46389c09a99e1b9a54341e97d extends Template
        <div class=\"col-md-3\" >
          <div style=\"border:solid Gray;\">
             <h1 align=\"center\"><b>kids Wear</b></h1>
-            <img  class=\"rounded mx-auto d-block\" src=\"images/kidsWinter.jpeg\"style=\"height:200px; widht:100px;\"/> 
+            <img  class=\"rounded mx-auto d-block\" src=\"images/clothing/kidsWinter.jpeg\"style=\"height:200px; widht:100px;\"/> 
             <h3 align=\"center\">Price : 3,999 <del style=\"color:red;\"> 8,999</del></h3>
             <p>
                Winter clothes are especially outerwear like coats, jackets, hats, scarves and gloves or mittens, earmuffs, but also warm underwear like long underwear, union suits and socks.</p>
@@ -241,7 +241,7 @@ class __TwigTemplate_789d45a46389c09a99e1b9a54341e97d extends Template
       <div class=\"collapse navbar-collapse\" id=\"navbarTogglerDemo01\">
          <ul class=\"navbar-nav mr-auto mt-2 mt-lg-0\">
             <li class=\"nav-item \">
-            <a class=\"nav-link\" href=\"#\">Sports wear <span class=\"sr-only\">(current)</span></a>
+            <a class=\"nav-link\" href=\"http://main_project/EthinicWear?pimcore_preview=true&_dc=1673380029833\">Sports wear <span class=\"sr-only\">(current)</span></a>
             </li>
       </div>
       </nav>
@@ -249,7 +249,7 @@ class __TwigTemplate_789d45a46389c09a99e1b9a54341e97d extends Template
       <div class=\"col-md-3\" >
                <div style=\"border:solid Gray;\">
              <h1 align=\"center\"><b>Mens Wear</b></h1>
-            <img class=\"rounded mx-auto d-block\"  src=\"images/mensports.jpg\"style=\"height:200px; widht:100px;\"/> 
+            <img class=\"rounded mx-auto d-block\"  src=\"images/clothing/mensports.jpg\"style=\"height:200px; widht:100px;\"/> 
             <h3 align=\"center\">Price : 1,299 <del style=\"color:red;\"> 4,990</del></h3>
             <p>
 
@@ -259,7 +259,7 @@ class __TwigTemplate_789d45a46389c09a99e1b9a54341e97d extends Template
       <div class=\"col-md-3\" >
          <div style=\"border:solid Gray;\">
              <h1 align=\"center\"><b>Womens Wear</b></h1>
-            <img class=\"rounded mx-auto d-block\"  src=\"images/WomenSports.jpg\"style=\"height:200px; widht:100px;\"/> 
+            <img class=\"rounded mx-auto d-block\"  src=\"images/clothing/WomenSports.jpg\"style=\"height:200px; widht:100px;\"/> 
             <h3 align=\"center\">Price : 899 <del style=\"color:red;\"> 12,999</del></h3>
             <p>
                Sportswear or activewear is clothing, including footwear, worn for sport or physical exercise. Sport-specific clothing is worn for most sports and physical exercise, for practical, comfort or safety reasons.</p>
@@ -268,7 +268,7 @@ class __TwigTemplate_789d45a46389c09a99e1b9a54341e97d extends Template
        <div class=\"col-md-3\" >
          <div style=\"border:solid Gray;\">
              <h1 align=\"center\"><b>kids Wear</b></h1>
-            <img  class=\"rounded mx-auto d-block\"  src=\"images/kidsSports.jpg\"style=\"height:200px; widht:100px;\"/> 
+            <img  class=\"rounded mx-auto d-block\"  src=\"images//clothing/kidsSports.jpg\"style=\"height:200px; widht:100px;\"/> 
             <h3 align=\"center\">Price : 599 <del style=\"color:red;\"> 1,999</del></h3>
             <p>
 
@@ -311,7 +311,7 @@ class __TwigTemplate_789d45a46389c09a99e1b9a54341e97d extends Template
                   </div>
                   <div class=\"col-lg-3\">
                      <div class=\"information_main\">
-                        <div class=\"footer_logo\"><a href=\"index.html\"><img src=\"images/logo.png\"></a></div>
+                        <div class=\"footer_logo\"><a href=\"index.html\"><img src=\"images/Elogo.jpg\"></a></div>
                      </div>
                   </div>
                </div>
@@ -366,16 +366,16 @@ class __TwigTemplate_789d45a46389c09a99e1b9a54341e97d extends Template
             <a class=\"nav-link\" href=\"#\">Home <span class=\"sr-only\">(current)</span></a>
             </li>
             <li class=\"nav-item\">
-            <a class=\"nav-link\" href=\"#\">Ethnic Wear</a>
+            <a class=\"nav-link\" href=\"http://main_project/EthinicWear?pimcore_preview=true&_dc=1673380029833\">Ethnic Wear</a>
             </li>
             <li class=\"nav-item\">
-            <a class=\"nav-link \" href=\"#\">Western Wear</a>
+            <a class=\"nav-link \" href=\"http://main_project/EthinicWear?pimcore_preview=true&_dc=1673380029833\">Western Wear</a>
             </li>
             <li class=\"nav-item\">
-            <a class=\"nav-link\" href=\"#\">Sports Wear</a>
+            <a class=\"nav-link\" href=\"http://main_project/EthinicWear?pimcore_preview=true&_dc=1673380029833\">Sports Wear</a>
             </li>
             <li class=\"nav-item\">
-            <a class=\"nav-link\" href=\"#\">Winter Wear</a>
+            <a class=\"nav-link\" href=\"http://main_project/EthinicWear?pimcore_preview=true&_dc=1673380029833\">Winter Wear</a>
             </li>
          </ul>
          <form class=\"form-inline my-2 my-lg-0\">
@@ -399,7 +399,7 @@ class __TwigTemplate_789d45a46389c09a99e1b9a54341e97d extends Template
       <div class=\"collapse navbar-collapse\" id=\"navbarTogglerDemo01\">
          <ul class=\"navbar-nav mr-auto mt-2 mt-lg-0\">
             <li class=\"nav-item \">
-            <a class=\"nav-link\" href=\"http://main_project/clothing\">Ethinic wear <span class=\"sr-only\">(current)</span></a>
+            <a class=\"nav-link\" href=\"http://main_project/EthinicWear?pimcore_preview=true&_dc=1673380029833\">Ethinic wear <span class=\"sr-only\">(current)</span></a>
             </li>
       </div>
       </nav>
@@ -410,7 +410,7 @@ class __TwigTemplate_789d45a46389c09a99e1b9a54341e97d extends Template
        
          <div style=\"border:solid Gray;\"align=\"center;\">
             <h1 align=\"center\"><b>Mens Wear</b></h1>
-            <img class=\"rounded mx-auto d-block\" src=\"images/MenKurta.jpeg\"style=\"height:200px; widht:100px;\"/> 
+            <img class=\"rounded mx-auto d-block\" src=\"images/clothing/MenKurta.jpeg\"style=\"height:200px; widht:100px;\"/> 
             <h3 align=\"center\">Price : 2,999 <del style=\"color:red;\"> 5,000</del></h3>
             <p>
                Kurtas are the soul of Indian traditional wear and are one of the most versatile pieces of clothing in a man's wardrobe. </p>
@@ -419,7 +419,7 @@ class __TwigTemplate_789d45a46389c09a99e1b9a54341e97d extends Template
       <div class=\"col-md-3\" >
          <div style=\"border:solid Gray;\">
             <h1 align=\"center\"><b>Womens Wear</b></h1>
-            <img class=\"rounded mx-auto d-block\" src=\"images/WomenKurta.jpeg\"style=\"height:200px; widht:100px;\"/> 
+            <img class=\"rounded mx-auto d-block\" src=\"images/clothing/WomenKurta.jpeg\"style=\"height:200px; widht:100px;\"/> 
             <h3 align=\"center\">Price : 3,599 <del style=\"color:red;\"> 5,999</del></h3>
             <p>Kurtas are the soul of Indian traditional wear and are one of the most versatile pieces of clothing in a Woman's wardrobe.</p>
          </div>
@@ -427,7 +427,7 @@ class __TwigTemplate_789d45a46389c09a99e1b9a54341e97d extends Template
        <div class=\"col-md-3\" >
          <div style=\"border:solid Gray;\">
             <h1 align=\"center\"><b>kids Wear</b></h1>
-            <img class=\"rounded mx-auto d-block\" src=\"images/kidskurta.jpg\" style=\"height:200px; widht:100px;\"/> 
+            <img class=\"rounded mx-auto d-block\" src=\"images/clothing/kidskurta.jpg\" style=\"height:200px; widht:100px;\"/> 
             <h3 align=\"center\">Price : 2,099 <del style=\"color:red;\"> 4,000</del></h3>
             <p>Kurtas are the soul of Indian traditional wear and are one of the most versatile pieces of clothing in a Kid's wardrobe.</p>
          </div>
@@ -447,7 +447,7 @@ class __TwigTemplate_789d45a46389c09a99e1b9a54341e97d extends Template
       <div class=\"collapse navbar-collapse\" id=\"navbarTogglerDemo01\">
          <ul class=\"navbar-nav mr-auto mt-2 mt-lg-0\">
             <li class=\"nav-item \">
-            <a class=\"nav-link\" href=\"#\">Western wear <span class=\"sr-only\">(current)</span></a>
+            <a class=\"nav-link\" href=\"http://main_project/EthinicWear?pimcore_preview=true&_dc=1673380029833\">Western wear <span class=\"sr-only\">(current)</span></a>
             </li>
       </div>
       </nav>
@@ -456,7 +456,7 @@ class __TwigTemplate_789d45a46389c09a99e1b9a54341e97d extends Template
       
          <div style=\"border:solid Gray;\"align=\"center;\">
              <h1 align=\"center\"><b>Mens Wear</b></h1>
-            <img class=\"rounded mx-auto d-block\" src=\"images/westernMen.jpeg\"style=\"height:200px; widht:100px;\"/> 
+            <img class=\"rounded mx-auto d-block\" src=\"images/clothing/westernMen.jpeg\"style=\"height:200px; widht:100px;\"/> 
             <h3 align=\"center\">Price : 3,599 <del style=\"color:red;\"> 7,999</del></h3>
             <p>
             The western aesthetic is absolutely everywhere, with cowboy boots, fringe jackets, prairie dresses. </p>
@@ -465,7 +465,7 @@ class __TwigTemplate_789d45a46389c09a99e1b9a54341e97d extends Template
       <div class=\"col-md-3\" >
          <div style=\"border:solid Gray;\">
             <h1 align=\"center\"><b>Womens Wear</b></h1>
-            <img class=\"rounded mx-auto d-block\" src=\"images/WesternWomen.jpg\"style=\"height:200px; widht:100px;\"/> 
+            <img class=\"rounded mx-auto d-block\" src=\"images/clothing/WesternWomen.jpg\"style=\"height:200px; widht:100px;\"/> 
             <h3 align=\"center\">Price : 3,999 <del style=\"color:red;\"> 6,999</del></h3>
             <p>The western aesthetic is absolutely everywhere, with cowboy boots, fringe jackets, prairie dresses.</p>
          </div>
@@ -473,7 +473,7 @@ class __TwigTemplate_789d45a46389c09a99e1b9a54341e97d extends Template
        <div class=\"col-md-3\" >
          <div style=\"border:solid Gray;\">
               <h1 align=\"center\"><b>kids Wear</b></h1>
-            <img class=\"rounded mx-auto d-block\"  src=\"images/westernKid.jpg\"style=\"height:200px; widht:100px;\"/> 
+            <img class=\"rounded mx-auto d-block\"  src=\"images/clothing/westernKid.jpg\"style=\"height:200px; widht:100px;\"/> 
             <h3 align=\"center\">Price : 2,999 <del style=\"color:red;\"> 5,099</del></h3>
             <p>
                The western aesthetic is absolutely everywhere, with cowboy boots, fringe jackets, prairie dresses.</p>
@@ -491,7 +491,7 @@ class __TwigTemplate_789d45a46389c09a99e1b9a54341e97d extends Template
       <div class=\"collapse navbar-collapse\" id=\"navbarTogglerDemo01\">
          <ul class=\"navbar-nav mr-auto mt-2 mt-lg-0\">
             <li class=\"nav-item \">
-            <a class=\"nav-link\" href=\"#\">Winter wear <span class=\"sr-only\">(current)</span></a>
+            <a class=\"nav-link\" href=\"http://main_project/EthinicWear?pimcore_preview=true&_dc=1673380029833\">Winter wear <span class=\"sr-only\">(current)</span></a>
             </li>
       </div>
       </nav>
@@ -501,7 +501,7 @@ class __TwigTemplate_789d45a46389c09a99e1b9a54341e97d extends Template
      
          <div style=\"border:solid Gray;\"align=\"center;\">
             <h1 align=\"center\"><b>Mens Wear</b></h1>
-            <img class=\"rounded mx-auto d-block\" src=\"images/WinterMan.jpeg\"style=\"height:200px; widht:100px;\"/> 
+            <img class=\"rounded mx-auto d-block\" src=\"images/clothing/WinterMan.jpeg\"style=\"height:200px; widht:100px;\"/> 
             <h3 align=\"center\">Price : 6,999 <del style=\"color:red;\"> 10,999</del></h3>
             <p>
                Winter clothes are especially outerwear like coats, jackets, hats, scarves and gloves or mittens, earmuffs, but also warm underwear like long underwear, union suits and socks.</p>
@@ -510,7 +510,7 @@ class __TwigTemplate_789d45a46389c09a99e1b9a54341e97d extends Template
       <div class=\"col-md-3\" >
          <div style=\"border:solid Gray;\">
             <h1 align=\"center\"><b>Womens Wear</b></h1>
-            <img class=\"rounded mx-auto d-block\" src=\"images/WomenWinter.jpg\"style=\"height:200px; widht:100px;\"/> 
+            <img class=\"rounded mx-auto d-block\" src=\"images/clothing/WomenWinter.jpg\"style=\"height:200px; widht:100px;\"/> 
             <h3 align=\"center\">Price : 7,,999 <del style=\"color:red;\"> 12,999</del></h3>
             <p>
                Winter clothes are especially outerwear like coats, jackets, hats, scarves and gloves or mittens, earmuffs, but also warm underwear like long underwear, union suits and socks.</p>
@@ -519,7 +519,7 @@ class __TwigTemplate_789d45a46389c09a99e1b9a54341e97d extends Template
        <div class=\"col-md-3\" >
          <div style=\"border:solid Gray;\">
             <h1 align=\"center\"><b>kids Wear</b></h1>
-            <img  class=\"rounded mx-auto d-block\" src=\"images/kidsWinter.jpeg\"style=\"height:200px; widht:100px;\"/> 
+            <img  class=\"rounded mx-auto d-block\" src=\"images/clothing/kidsWinter.jpeg\"style=\"height:200px; widht:100px;\"/> 
             <h3 align=\"center\">Price : 3,999 <del style=\"color:red;\"> 8,999</del></h3>
             <p>
                Winter clothes are especially outerwear like coats, jackets, hats, scarves and gloves or mittens, earmuffs, but also warm underwear like long underwear, union suits and socks.</p>
@@ -539,7 +539,7 @@ class __TwigTemplate_789d45a46389c09a99e1b9a54341e97d extends Template
       <div class=\"collapse navbar-collapse\" id=\"navbarTogglerDemo01\">
          <ul class=\"navbar-nav mr-auto mt-2 mt-lg-0\">
             <li class=\"nav-item \">
-            <a class=\"nav-link\" href=\"#\">Sports wear <span class=\"sr-only\">(current)</span></a>
+            <a class=\"nav-link\" href=\"http://main_project/EthinicWear?pimcore_preview=true&_dc=1673380029833\">Sports wear <span class=\"sr-only\">(current)</span></a>
             </li>
       </div>
       </nav>
@@ -547,7 +547,7 @@ class __TwigTemplate_789d45a46389c09a99e1b9a54341e97d extends Template
       <div class=\"col-md-3\" >
                <div style=\"border:solid Gray;\">
              <h1 align=\"center\"><b>Mens Wear</b></h1>
-            <img class=\"rounded mx-auto d-block\"  src=\"images/mensports.jpg\"style=\"height:200px; widht:100px;\"/> 
+            <img class=\"rounded mx-auto d-block\"  src=\"images/clothing/mensports.jpg\"style=\"height:200px; widht:100px;\"/> 
             <h3 align=\"center\">Price : 1,299 <del style=\"color:red;\"> 4,990</del></h3>
             <p>
 
@@ -557,7 +557,7 @@ class __TwigTemplate_789d45a46389c09a99e1b9a54341e97d extends Template
       <div class=\"col-md-3\" >
          <div style=\"border:solid Gray;\">
              <h1 align=\"center\"><b>Womens Wear</b></h1>
-            <img class=\"rounded mx-auto d-block\"  src=\"images/WomenSports.jpg\"style=\"height:200px; widht:100px;\"/> 
+            <img class=\"rounded mx-auto d-block\"  src=\"images/clothing/WomenSports.jpg\"style=\"height:200px; widht:100px;\"/> 
             <h3 align=\"center\">Price : 899 <del style=\"color:red;\"> 12,999</del></h3>
             <p>
                Sportswear or activewear is clothing, including footwear, worn for sport or physical exercise. Sport-specific clothing is worn for most sports and physical exercise, for practical, comfort or safety reasons.</p>
@@ -566,7 +566,7 @@ class __TwigTemplate_789d45a46389c09a99e1b9a54341e97d extends Template
        <div class=\"col-md-3\" >
          <div style=\"border:solid Gray;\">
              <h1 align=\"center\"><b>kids Wear</b></h1>
-            <img  class=\"rounded mx-auto d-block\"  src=\"images/kidsSports.jpg\"style=\"height:200px; widht:100px;\"/> 
+            <img  class=\"rounded mx-auto d-block\"  src=\"images//clothing/kidsSports.jpg\"style=\"height:200px; widht:100px;\"/> 
             <h3 align=\"center\">Price : 599 <del style=\"color:red;\"> 1,999</del></h3>
             <p>
 
@@ -609,7 +609,7 @@ class __TwigTemplate_789d45a46389c09a99e1b9a54341e97d extends Template
                   </div>
                   <div class=\"col-lg-3\">
                      <div class=\"information_main\">
-                        <div class=\"footer_logo\"><a href=\"index.html\"><img src=\"images/logo.png\"></a></div>
+                        <div class=\"footer_logo\"><a href=\"index.html\"><img src=\"images/Elogo.jpg\"></a></div>
                      </div>
                   </div>
                </div>
