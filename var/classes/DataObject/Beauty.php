@@ -6,6 +6,7 @@
  *
  * Fields Summary:
  * - BeautyType [select]
+ * - BeautyProductType [objectbricks]
  * - Description [textarea]
  * - Images [image]
  * - Price [numeric]
@@ -36,6 +37,7 @@ class Beauty extends Concrete
 protected $o_classId = "4";
 protected $o_className = "Beauty";
 protected $BeautyType;
+protected $BeautyProductType;
 protected $Description;
 protected $Images;
 protected $Price;
@@ -86,6 +88,43 @@ public function setBeautyType(?string $BeautyType)
 {
 	$this->BeautyType = $BeautyType;
 
+	return $this;
+}
+
+/**
+* @return \Pimcore\Model\DataObject\Beauty\BeautyProductType
+*/
+public function getBeautyProductType(): ?\Pimcore\Model\DataObject\Objectbrick
+{
+	$data = $this->BeautyProductType;
+	if (!$data) {
+		if (\Pimcore\Tool::classExists("\\Pimcore\\Model\\DataObject\\Beauty\\BeautyProductType")) {
+			$data = new \Pimcore\Model\DataObject\Beauty\BeautyProductType($this, "BeautyProductType");
+			$this->BeautyProductType = $data;
+		} else {
+			return null;
+		}
+	}
+	if ($this instanceof PreGetValueHookInterface && !\Pimcore::inAdmin()) {
+		$preValue = $this->preGetValue("BeautyProductType");
+		if ($preValue !== null) {
+			return $preValue;
+		}
+	}
+
+	return $data;
+}
+
+/**
+* Set BeautyProductType - Beauty Product Type
+* @param \Pimcore\Model\DataObject\Objectbrick|null $BeautyProductType
+* @return \Pimcore\Model\DataObject\Beauty
+*/
+public function setBeautyProductType(?\Pimcore\Model\DataObject\Objectbrick $BeautyProductType)
+{
+	/** @var \Pimcore\Model\DataObject\ClassDefinition\Data\Objectbricks $fd */
+	$fd = $this->getClass()->getFieldDefinition("BeautyProductType");
+	$this->BeautyProductType = $fd->preSetData($this, $BeautyProductType);
 	return $this;
 }
 

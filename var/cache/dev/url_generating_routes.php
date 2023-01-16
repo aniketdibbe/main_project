@@ -553,4 +553,5 @@ return [
     'Makeup' => [[], ['_controller' => 'App\\Controller\\DefaultController::MakeupAction'], [], [['text', '/Makeup']], [], [], []],
     'MensWear' => [[], ['_controller' => 'App\\Controller\\DefaultController::MensWearAction'], [], [['text', '/MensWear']], [], [], []],
     'WomensWear' => [[], ['_controller' => 'App\\Controller\\DefaultController::WomensWearAction'], [], [['text', '/WomensWear']], [], [], []],
+    'login' => [[], ['_controller' => 'App\\Controller\\MyController::Emailtrigger'], [], [['text', '/email']], [], [], []],
 ];

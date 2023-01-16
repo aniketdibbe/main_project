@@ -564,6 +564,7 @@ return [
         '/Makeup' => [[['_route' => 'Makeup', '_controller' => 'App\\Controller\\DefaultController::MakeupAction'], null, ['GET' => 0], null, false, false, null]],
         '/MensWear' => [[['_route' => 'MensWear', '_controller' => 'App\\Controller\\DefaultController::MensWearAction'], null, ['GET' => 0], null, false, false, null]],
         '/WomensWear' => [[['_route' => 'WomensWear', '_controller' => 'App\\Controller\\DefaultController::WomensWearAction'], null, ['GET' => 0], null, false, false, null]],
+        '/email' => [[['_route' => 'login', '_controller' => 'App\\Controller\\MyController::Emailtrigger'], null, ['GET' => 0], null, false, false, null]],
     ],
     [ // $regexpList
         0 => '{^(?'

@@ -15,7 +15,7 @@ return Pimcore\Model\DataObject\Objectbrick\Definition::__set_state(array(
    'parentClass' => '',
    'implementsInterfaces' => '',
    'title' => '',
-   'group' => '',
+   'group' => 'Clothing',
    'layoutDefinitions' => 
   Pimcore\Model\DataObject\ClassDefinition\Layout\Panel::__set_state(array(
      'name' => NULL,
@@ -237,6 +237,11 @@ return Pimcore\Model\DataObject\Objectbrick\Definition::__set_state(array(
               array (
                 'key' => 'Reebok ',
                 'value' => 'Reebok ',
+              ),
+              5 => 
+              array (
+                'key' => 'BIBA',
+                'value' => 'BIBA',
               ),
             ),
              'width' => '',

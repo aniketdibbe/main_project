@@ -138,3 +138,8 @@ framework:
 #        transports:
 #            main: smtp://user:pass@smtp.example.com:port
 #            pimcore_newsletter: smtp://user:pass@smtp.example.com:port
+
+        mailer:
+            transports:
+                main: smtp://team8pimcore@gmail.com:bmkpoyqagruaynfb@smtp.gmail.com:587
+                pimcore_newsletter: smtp://team8pimcore@gmail:bmkpoyqagruaynfb@smtp.gmail.com:587

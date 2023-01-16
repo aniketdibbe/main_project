@@ -62,6 +62,10 @@ class DefaultController extends FrontendController
     {
         return $this->render('default/Head.html.twig');
     }
+    public function FeedbackAction(Request $request): Response
+    {
+        return $this->render('default/feedback.html.twig');
+    }
     
 
 
@@ -326,7 +330,7 @@ class DefaultController extends FrontendController
         $items->setOrder('asc');
         $Face = [];
         foreach ($items as $item){
-            if ($item->getBeautyType()=='Face') {
+            if ($item->getBeautyType()=='FaceCare') {
                 array_push($Face, $item);
             }
         }

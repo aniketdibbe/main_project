@@ -6,6 +6,7 @@
  *
  * Fields Summary:
  * - BeautyType [select]
+ * - BeautyProductType [objectbricks]
  * - Description [textarea]
  * - Images [image]
  * - Price [numeric]
@@ -21,7 +22,7 @@ return Pimcore\Model\DataObject\ClassDefinition::__set_state(array(
    'name' => 'Beauty',
    'description' => '',
    'creationDate' => 0,
-   'modificationDate' => 1673522544,
+   'modificationDate' => 1673695107,
    'userOwner' => 2,
    'userModification' => 2,
    'parentClass' => '',
@@ -93,8 +94,8 @@ return Pimcore\Model\DataObject\ClassDefinition::__set_state(array(
             array (
               0 => 
               array (
-                'key' => 'Face',
-                'value' => 'Face',
+                'key' => 'FaceCare',
+                'value' => 'FaceCare',
               ),
               1 => 
               array (
@@ -121,6 +122,36 @@ return Pimcore\Model\DataObject\ClassDefinition::__set_state(array(
              'defaultValueGenerator' => '',
           )),
           1 => 
+          Pimcore\Model\DataObject\ClassDefinition\Data\Objectbricks::__set_state(array(
+             'name' => 'BeautyProductType',
+             'title' => 'Beauty Product Type',
+             'tooltip' => '',
+             'mandatory' => false,
+             'noteditable' => false,
+             'index' => false,
+             'locked' => false,
+             'style' => '',
+             'permissions' => NULL,
+             'datatype' => 'data',
+             'fieldtype' => 'objectbricks',
+             'relationType' => false,
+             'invisible' => false,
+             'visibleGridView' => false,
+             'visibleSearch' => false,
+             'blockedVarsForExport' => 
+            array (
+            ),
+             'allowedTypes' => 
+            array (
+              0 => 'BodyCare',
+              1 => 'FaceCare',
+              2 => 'HairCare',
+              3 => 'Makeup',
+            ),
+             'maxItems' => NULL,
+             'border' => false,
+          )),
+          2 => 
           Pimcore\Model\DataObject\ClassDefinition\Data\Textarea::__set_state(array(
              'name' => 'Description',
              'title' => 'Description',
@@ -146,7 +177,7 @@ return Pimcore\Model\DataObject\ClassDefinition::__set_state(array(
              'showCharCount' => false,
              'excludeFromSearchIndex' => false,
           )),
-          2 => 
+          3 => 
           Pimcore\Model\DataObject\ClassDefinition\Data\Image::__set_state(array(
              'name' => 'Images',
              'title' => 'Images',
@@ -170,7 +201,7 @@ return Pimcore\Model\DataObject\ClassDefinition::__set_state(array(
              'height' => '',
              'uploadPath' => '',
           )),
-          3 => 
+          4 => 
           Pimcore\Model\DataObject\ClassDefinition\Data\Numeric::__set_state(array(
              'name' => 'Price',
              'title' => 'Price',
@@ -201,7 +232,7 @@ return Pimcore\Model\DataObject\ClassDefinition::__set_state(array(
              'decimalPrecision' => NULL,
              'defaultValueGenerator' => '',
           )),
-          4 => 
+          5 => 
           Pimcore\Model\DataObject\ClassDefinition\Data\Country::__set_state(array(
              'name' => 'MadeinCountry',
              'title' => 'Madein Country',
@@ -230,7 +261,7 @@ return Pimcore\Model\DataObject\ClassDefinition::__set_state(array(
              'defaultValueGenerator' => '',
              'restrictTo' => '',
           )),
-          5 => 
+          6 => 
           Pimcore\Model\DataObject\ClassDefinition\Data\Classificationstore::__set_state(array(
              'name' => 'Beauty',
              'title' => 'Beauty',
@@ -277,7 +308,7 @@ return Pimcore\Model\DataObject\ClassDefinition::__set_state(array(
              'permissionView' => NULL,
              'permissionEdit' => NULL,
           )),
-          6 => 
+          7 => 
           Pimcore\Model\DataObject\ClassDefinition\Data\Date::__set_state(array(
              'name' => 'ManufacturingDate',
              'title' => 'Manufacturing Date',
@@ -303,7 +334,7 @@ return Pimcore\Model\DataObject\ClassDefinition::__set_state(array(
              'useCurrentDate' => false,
              'defaultValueGenerator' => '',
           )),
-          7 => 
+          8 => 
           Pimcore\Model\DataObject\ClassDefinition\Data\Date::__set_state(array(
              'name' => 'ExpiryDate',
              'title' => 'Expiry Date',
